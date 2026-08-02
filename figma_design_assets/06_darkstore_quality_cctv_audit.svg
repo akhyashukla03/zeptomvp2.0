@@ -1,0 +1,19 @@
+<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="850" rx="40" fill="#130D1E"/>
+  <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
+  <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">📦 Model B Dark Store Quality Audit</text>
+  
+  <rect x="20" y="105" width="360" height="340" rx="16" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="35" y="135" fill="#F59E0B" font-family="Arial" font-size="13" font-weight="bold">🌡️ IoT Storage Telemetry &amp; CCTV Snapshot</text>
+  <rect x="35" y="150" width="330" height="40" rx="8" fill="#10B981"/>
+  <text x="50" y="175" fill="#FFFFFF" font-family="Arial" font-size="12" font-weight="bold">✓ Storage Temp: 18.2°C (Optimal Cool Climate)</text>
+  
+  <rect x="35" y="200" width="330" height="180" rx="8" fill="#000000" stroke="#334155"/>
+  <text x="45" y="220" fill="#00FF00" font-family="Courier" font-size="10">LIVE CCTV STREAM · DARK STORE #104 (GURGAON SECTOR 56)</text>
+  <text x="45" y="235" fill="#00FF00" font-family="Courier" font-size="10">RACK B4: BEAUTY &amp; SKINCARE VAULT · 2026-08-01 14:30:00</text>
+  <rect x="120" y="260" width="160" height="90" rx="4" fill="#0F172A" stroke="#F59E0B"/>
+  <text x="135" y="310" fill="#E2E8F0" font-family="Arial" font-size="11">[ Overhead CCTV Rack Snapshot ]</text>
+  
+  <text x="35" y="410" fill="#94A3B8" font-family="Arial" font-size="10">AWS S3 Lifecycle Storage Cost: ~$15/month total (7-day TTL auto-expire).</text>
+</svg>

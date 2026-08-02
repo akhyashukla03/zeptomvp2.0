@@ -1,0 +1,16 @@
+<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="850" rx="40" fill="#130D1E"/>
+  <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
+  <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🏷️ Post-Trial Conversion Voucher</text>
+  
+  <rect x="20" y="105" width="360" height="200" rx="14" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <text x="35" y="135" fill="#F59E0B" font-family="Arial" font-size="14" font-weight="bold">🎉 Enjoyed Your Cetaphil Cleanser Sample?</text>
+  <text x="35" y="155" fill="#E2E8F0" font-family="Arial" font-size="11">Unlock ₹100 Off Full-Sized Cetaphil Cleanser (250ml)!</text>
+  
+  <rect x="35" y="175" width="330" height="45" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-dasharray="6 4"/>
+  <text x="85" y="202" fill="#F59E0B" font-family="Arial" font-size="14" font-weight="bold">VOUCHER: DISCOVERY100</text>
+  
+  <rect x="35" y="235" width="330" height="45" rx="8" fill="#7C3AED"/>
+  <text x="80" y="262" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Order Full Size for ₹449 (Save ₹100)</text>
+</svg>

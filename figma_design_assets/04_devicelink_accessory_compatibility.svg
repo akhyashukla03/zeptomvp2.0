@@ -1,0 +1,15 @@
+<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="850" rx="40" fill="#130D1E"/>
+  <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
+  <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🔌 DeviceLink · Phone Model Auto-Detect</text>
+  
+  <rect x="20" y="105" width="360" height="200" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+  <rect x="35" y="125" width="330" height="45" rx="8" fill="#0F172A" stroke="#38BDF8"/>
+  <text x="50" y="152" fill="#38BDF8" font-family="Arial" font-size="13" font-weight="bold">📱 iPhone 15 Pro Detected (USB-C 20W)</text>
+  
+  <text x="35" y="195" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Portronics Braided USB-C Cable (1m)</text>
+  <text x="35" y="215" fill="#10B981" font-family="Arial" font-size="11" font-weight="bold">✓ 100% Verified Compatible · 10-Min Speed</text>
+  <rect x="35" y="235" width="330" height="45" rx="8" fill="#7C3AED"/>
+  <text x="120" y="262" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Add Cable to Cart (₹299)</text>
+</svg>

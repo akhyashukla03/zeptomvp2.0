@@ -1,0 +1,24 @@
+# Temporary & Cache Files
+__pycache__/
+*.pyc
+*.pyo
+.tempmediaStorage/
+*.log
+scratch/
+
+# Backup & Temporary PPTX/PDF builds
+*_v2.pptx
+*_v3.pptx
+test_*.pptx
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+.env
+.venv/
+env/
+venv/
