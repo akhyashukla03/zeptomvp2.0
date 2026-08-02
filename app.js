@@ -878,7 +878,7 @@ function updatePhoneCartUI() {
   }
 
   const appliedDiscount = (couponApplied && hasNonGrocery) ? 100 : 0;
-  const grandTotal = totalItemsPrice > 0 ? Math.max(0, totalItemsPrice + 9 - appliedDiscount) : 0; // Rs. 9 handling fee
+  const grandTotal = cartItems.length > 0 ? Math.max(0, totalItemsPrice + 9 - appliedDiscount) : 0; // Rs. 9 handling fee
 
   // Update Bill details
   document.getElementById("bill-subtotal").textContent = `Rs. ${totalItemsPrice}`;
@@ -896,17 +896,20 @@ function updatePhoneCartUI() {
   
   if (appliedDiscount > 0) {
     discountRow.style.display = "flex";
-    discountRow.innerHTML = `<span>Discovery Discount</span><span>- Rs. ${appliedDiscount}</span>`;
+    discountRow.innerHTML = `<span>Discovery Discount (DISCOVERY100)</span><span>- Rs. ${appliedDiscount}</span>`;
   } else {
     discountRow.style.display = "none";
   }
 
   document.getElementById("bill-grand-total").textContent = `Rs. ${grandTotal}`;
-  document.getElementById("checkout-btn-price").textContent = `Rs. ${grandTotal} →`;
+  const checkoutBtnPrice = document.getElementById("checkout-btn-price");
+  if (checkoutBtnPrice) {
+    checkoutBtnPrice.textContent = `Proceed to Payment · Rs. ${grandTotal} →`;
+  }
 
   // Disable proceed button if cart is empty
   const btn = document.querySelector(".btn-checkout-proceed");
-  if (totalItemsPrice === 0) {
+  if (cartItems.length === 0) {
     btn.disabled = true;
     btn.style.opacity = 0.5;
     btn.style.pointerEvents = "none";
