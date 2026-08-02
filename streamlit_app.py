@@ -4,7 +4,7 @@ import os
 
 # Set Streamlit Page Configuration
 st.set_page_config(
-    page_title="Zepto Cross-Category Discovery | Live MVP & Submission Portal",
+    page_title="Zepto Cross-Category Discovery | Live MVP Trial",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -24,16 +24,6 @@ st.markdown("""
         border-radius: 8px;
         border: none;
     }
-    .submission-bar {
-        background: linear-gradient(135deg, #1e1430, #281545);
-        border: 2px solid #7c3aed;
-        border-radius: 12px;
-        padding: 16px 24px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -42,22 +32,21 @@ st.sidebar.title("⚡ Zepto PM Portal")
 st.sidebar.caption("Growth PM Graduation Project Submission")
 
 page = st.sidebar.radio(
-    "Select Component:",
+    "Select Live Component:",
     [
         "📱 Live MVP Prototype Trial",
-        "🧠 AI Review Analysis Workflow (10k Reviews)",
-        "📄 Official 10-Slide Pitch Deck (PDF)"
+        "🧠 AI Review Analysis Workflow (10k Reviews)"
     ]
 )
 
 st.sidebar.markdown("---")
-st.sidebar.subheader("📥 Official Deliverables")
+st.sidebar.subheader("📥 Official Submission Files")
 
 pdf_path = os.path.join(os.path.dirname(__file__), "NL_Zepto_Growth_PM_Graduation_Project.pdf")
 if os.path.exists(pdf_path):
     with open(pdf_path, "rb") as f:
         st.sidebar.download_button(
-            label="📄 Download Submission PDF (NL Zepto.pdf)",
+            label="📄 Download 10-Slide PDF Deck (NL Zepto.pdf)",
             data=f.read(),
             file_name="NL Zepto.pdf",
             mime="application/pdf",
@@ -135,19 +124,3 @@ elif page == "🧠 AI Review Analysis Workflow (10k Reviews)":
     st.title("🧠 AI Review Analysis Workflow Engine")
     st.caption("Ingested 10,000 customer review records across 10 social channels to identify buying frictions and feature demands.")
     render_portal(1150)
-
-elif page == "📄 Official 10-Slide Pitch Deck (PDF)":
-    st.title("📄 Official 10-Slide Presentation Pitch Deck")
-    st.caption("Widescreen 16:9 vector PDF deck complying strictly with all submission guidelines (Anonymous, 10 slides, >=14pt font, <40MB).")
-    
-    if os.path.exists(pdf_path):
-        with open(pdf_path, "rb") as f:
-            st.download_button(
-                label="📄 Download Official PDF Deck (NL Zepto.pdf)",
-                data=f.read(),
-                file_name="NL Zepto.pdf",
-                mime="application/pdf",
-                use_container_width=True
-            )
-    st.markdown("---")
-    render_portal(1100)

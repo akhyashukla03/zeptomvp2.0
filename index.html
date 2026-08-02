@@ -30,9 +30,6 @@
       <button class="tab-btn" id="tab-btn-research" onclick="switchTab('research')">
         <span class="tab-icon">👥</span> Primary User Research
       </button>
-      <button class="tab-btn" id="tab-btn-deck" onclick="switchTab('deck')">
-        <span class="tab-icon">📄</span> 10-Slide Pitch Deck
-      </button>
     </nav>
     <div class="header-actions">
       <a href="NL_Zepto_Growth_PM_Graduation_Project.pdf" download="NL_Zepto.pdf" class="btn btn-accent btn-sm" style="font-weight:700; border-radius:8px; text-decoration:none;">
@@ -722,58 +719,6 @@ function createZeptoPrimaryResearchForm() {
           </div>
         </div>
 
-      </div>
-    </section>
-
-
-    <!-- TAB 4: 10-SLIDE PITCH DECK -->
-    <section id="tab-deck" class="tab-content">
-      <div class="section-hero">
-        <h1>10-Slide Product Manager Pitch Deck</h1>
-        <p>Interactive PM Pitch Deck structured specifically for the graduation project submission guidelines. Each slide title communicates a clear, action-oriented message.</p>
-      </div>
-
-      <div class="deck-viewer-container">
-        <!-- Deck Navigation Header -->
-        <div class="deck-nav-bar">
-          <div class="deck-controls">
-            <button class="btn btn-secondary btn-sm" onclick="changeSlide(-1)">◀ Previous</button>
-            <span class="slide-indicator">Slide <strong id="current-slide-num">1</strong> of 10</span>
-            <button class="btn btn-secondary btn-sm" onclick="changeSlide(1)">Next ▶</button>
-          </div>
-          <div style="display:flex; gap:8px;">
-            <a href="Zepto_Growth_PM_Graduation_Project.pdf" download="Zepto_Growth_PM_Graduation_Project.pdf" class="btn btn-accent btn-sm" style="background:linear-gradient(135deg, #e05238, #ff5252); text-decoration:none; font-weight:700;">
-              📄 Download PDF Deck
-            </a>
-            <a href="Zepto_Growth_PM_Graduation_Project.pptx" download="Zepto_Growth_PM_Graduation_Project.pptx" class="btn btn-secondary btn-sm" style="text-decoration:none; font-weight:700;">
-              📊 Download PPTX Deck
-            </a>
-          </div>
-        </div>
-
-        <!-- Slide Frame Representing standard format -->
-        <div class="slide-canvas-wrapper">
-          <div class="slide-canvas" id="slide-canvas-box">
-            <!-- Dynamically populated via JS -->
-            <div class="slide-layout-content">
-              <span class="slide-header-number">SLIDE 01</span>
-              <h2 class="slide-main-title" id="slide-title">Slide Title goes here</h2>
-              <h3 class="slide-sub-title" id="slide-subtitle">Subtitle goes here</h3>
-              <ul class="slide-bullets-list" id="slide-bullets">
-                <!-- Bullet points go here -->
-              </ul>
-            </div>
-            <div class="slide-footer">
-              <span>Zepto Growth Team | Q3 Strategic Plan</span>
-              <span class="slide-strict-font-notice">Min. Font Size: 14pt (Google Slides) | Strict 10 Slide Limit</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide Thumbnails list -->
-        <div class="slide-thumbnails-strip" id="slide-thumbnails-list">
-          <!-- Dynamically populated -->
-        </div>
       </div>
     </section>
 
