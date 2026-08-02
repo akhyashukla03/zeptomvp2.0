@@ -1784,10 +1784,6 @@ const tourSteps = [
   {
     tab: "prototype",
     content: "<strong>Step 6: Model B Live Dark-Store Audit & CCTV</strong><br><br>Clicking 'Proceed to Payment' triggers the checkout recommendation drawer. Click **View Storage Audit Log ➔** to see the <strong>Model B IoT storage telemetry and live CCTV camera snapshot</strong> ($15/mo production cost)!"
-  },
-  {
-    tab: "deck",
-    content: "<strong>Step 7: Deep-Dive Slide Pitch Deck (Final Step)</strong><br><br>Let's open the <strong>10-Slide Pitch Deck</strong>. Use this tab to read our complete PM proposal detailing target metrics, subscription economics, and pilot rollouts. Enjoy exploring!"
   }
 ];
 

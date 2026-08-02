@@ -10,16 +10,21 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Hide Streamlit Header & Sidebar Completely to Ensure 100% Top Header Visibility
+# Hide Streamlit Header, Footer, and Sidebar Completely to Ensure 100% Top Header Visibility & Anonymity
 st.markdown("""
     <style>
-    /* Hide Streamlit Default Top Header & Sidebar */
+    /* Hide Streamlit Default Top Header, Footer & Sidebar */
     header[data-testid="stHeader"], [data-testid="stHeader"] {
         display: none !important;
         height: 0px !important;
     }
     [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] {
         display: none !important;
+    }
+    footer, .stFooter, [data-testid="stFooter"], #MainMenu, #stDecoration {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0px !important;
     }
     .stApp {
         background-color: #130d1e;
@@ -31,9 +36,6 @@ st.markdown("""
         padding-left: 0rem !important;
         padding-right: 0rem !important;
         max-width: 100% !important;
-    }
-    footer {
-        display: none !important;
     }
     </style>
 """, unsafe_allow_html=True)
