@@ -61,7 +61,7 @@ def build_pptx_deck():
                 "Growth PM Approach: Trigger de-risked trial during recurring grocery orders without interrupting 45s checkout speed."
             ],
             "bottom_title": "🔗 ANONYMOUS FELLOWSHIP PROJECT DIRECTORY & VERIFIED DATA",
-            "bottom_text": "Live Streamlit App: https://zeptomvp.streamlit.app | Public Source Code: NL_Zepto_Growth_PM_Graduation_Project"
+            "bottom_text": "Live Streamlit App: https://zeptomvp2.streamlit.app | Public Source Code: NL_Zepto_Growth_PM_Graduation_Project"
         },
         {
             "slide_num": 2,
@@ -186,7 +186,7 @@ def build_pptx_deck():
             ],
             "image_path": mvp_img if os.path.exists(mvp_img) else None,
             "bottom_title": "🎨 LIVE FIGMA DESIGN SYSTEM & INTERACTIVE MVP PORTAL",
-            "bottom_text": "Figma Design & Wireframes: https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1 | Live App: https://zeptomvp.streamlit.app"
+            "bottom_text": "Figma Design & Wireframes: https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1 | Live App: https://zeptomvp2.streamlit.app"
         },
         {
             "slide_num": 8,
@@ -247,8 +247,8 @@ def build_pptx_deck():
             "box2_title": "🔗 ANONYMOUS REVIEWER DATA & DEMO DIRECTORY",
             "box2_bullets": [
                 "Figma Design & Wireframes: https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1",
-                "Live Streamlit Production App: https://zeptomvp.streamlit.app",
-                "10,000 Reviews Dataset: https://zeptomvp.streamlit.app",
+                "Live Streamlit Production App: https://zeptomvp2.streamlit.app",
+                "10,000 Reviews Dataset: https://zeptomvp2.streamlit.app",
                 "Public Source Code: NL_Zepto_Growth_PM_Graduation_Project"
             ],
             "bottom_title": "⚠️ RISKS & MITIGATIONS SUMMARY",

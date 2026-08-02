@@ -12,7 +12,7 @@
       "Strategic Objective: Lift Monthly Active Customers (MAC) buying from 2+ categories from 8.2% to 28.4% [Illustrative Target].",
       "Margin Formula: Blended Margin = (Grocery % * 10%) + (Non-Grocery % * 40%) -> Unlocks +300bps EBITDA [Illustrative Modeling Estimate]."
     ],
-    "the_paradox": "Live Streamlit App: https://zeptomvp.streamlit.app | Public Code & Dataset: NL_Zepto_Growth_PM_Graduation_Project"
+    "the_paradox": "Live Streamlit App: https://zeptomvp2.streamlit.app | Public Code & Dataset: NL_Zepto_Growth_PM_Graduation_Project"
   },
   {
     "slide_number": 2,
@@ -151,7 +151,7 @@
     "step_name": "GTM",
     "title": "10. Phased Rollout Overcomes Sample Supply Ceilings via Instant Try-and-Return in Non-Sampleable Categories",
     "subtitle": "Addressing high-ticket non-sampleable categories via instant try-and-return while monetizing brand attribution.",
-    "monetization": "Live Streamlit App: https://zeptomvp.streamlit.app | Public Source Code & Datasets: NL_Zepto_Growth_PM_Graduation_Project",
+    "monetization": "Live Streamlit App: https://zeptomvp2.streamlit.app | Public Source Code & Datasets: NL_Zepto_Growth_PM_Graduation_Project",
     "rollout": [
       "Non-Sampleable Strategy: High-ticket items (Electronics, Baby Gear) bypass sampling via 10-min Instant Try-and-Return.",
       "Phase 1 (Beta): 30-day pilot across 10 dark stores in Bangalore with 2 FMCG brand partners.",

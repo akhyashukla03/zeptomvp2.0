@@ -24,7 +24,7 @@ This repository contains the end-to-end **AI-Powered PM Discovery Engine, Primar
 | :--- | :--- | :--- |
 | 📄 **Official Presentation PDF** | Widescreen 16:9 10-Slide Graduation Pitch Deck (Vector PDF) | [`NL_Zepto_Growth_PM_Graduation_Project.pdf`](NL_Zepto_Growth_PM_Graduation_Project.pdf) |
 | 📊 **Editable PowerPoint Deck** | 10-Slide Microsoft PowerPoint Presentation File (.pptx) | [`NL_Zepto_Growth_PM_Graduation_Project.pptx`](NL_Zepto_Growth_PM_Graduation_Project.pptx) |
-| 🌐 **Live Production App** | Streamlit Cloud Deployed MVP Application | [`https://zeptomvp.streamlit.app`](https://zeptomvp.streamlit.app) |
+| 🌐 **Live Production App** | Streamlit Cloud Deployed MVP Application | [`https://zeptomvp2.streamlit.app`](https://zeptomvp2.streamlit.app) |
 | 🎨 **Live Figma Design File** | 8 Editable Vector Screens & Component Wireframe System | [`Figma Live Design File`](https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1) |
 | 💻 **Interactive Web Portal** | Full-Featured Web Application & Guided PM Tour Engine | [`index.html`](index.html) |
 | 🎨 **Figma SVG Assets** | 8 Vector SVG Design Screen Mockups | [`figma_design_assets/`](figma_design_assets/) |
