@@ -13,7 +13,7 @@ st.set_page_config(
 # Hide Streamlit Header, Footer, and Sidebar Completely to Ensure 100% Top Header Visibility & Anonymity
 st.markdown("""
     <style>
-    /* Hide Streamlit Default Top Header, Footer & Sidebar */
+    /* Hide Streamlit Default Top Header, Footer, Sidebar, Viewer Badges & Avatars */
     header[data-testid="stHeader"], [data-testid="stHeader"] {
         display: none !important;
         height: 0px !important;
@@ -21,10 +21,28 @@ st.markdown("""
     [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] {
         display: none !important;
     }
-    footer, .stFooter, [data-testid="stFooter"], #MainMenu, #stDecoration {
+    footer, .stFooter, [data-testid="stFooter"], #MainMenu, #stDecoration, [data-testid="stDecoration"] {
         display: none !important;
         visibility: hidden !important;
         height: 0px !important;
+    }
+    /* Hide Streamlit Cloud Floating Paper Boat Logo, Viewer Badge & Profile Avatar */
+    [data-testid="stStatusWidget"],
+    [data-testid="stViewerBadge"],
+    .stViewerBadge,
+    .viewerBadge,
+    div[class*="viewerBadge"],
+    div[class*="stViewerBadge"],
+    div[class*="StatusWidget"],
+    div[class*="stAppViewer"],
+    div[class*="Profile"],
+    a[href*="streamlit.app"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        height: 0px !important;
+        width: 0px !important;
+        pointer-events: none !important;
     }
     .stApp {
         background-color: #130d1e;
