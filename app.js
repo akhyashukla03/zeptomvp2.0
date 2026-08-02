@@ -890,6 +890,17 @@ function updatePhoneCartUI() {
   // Update Bill details
   document.getElementById("bill-subtotal").textContent = `Rs. ${totalItemsPrice}`;
   
+  // Dynamically update Handling Charges label badge when sample is present
+  const hasSample = cartItems.some(i => i.isSample);
+  const handlingLabel = document.getElementById("bill-handling-label");
+  if (handlingLabel) {
+    if (hasSample) {
+      handlingLabel.innerHTML = `Handling Charges <span style="font-size:9px; color:#27c93f; background:rgba(39,201,63,0.15); padding:2px 6px; border-radius:4px; margin-left:4px; font-weight:700;">🎁 ₹0 Sample Rides in Bag (Zero Extra CAC)</span>`;
+    } else {
+      handlingLabel.innerHTML = `Handling Charges <small style="font-size:9px; color:var(--text-muted); opacity:0.7;">(Standard Order Handling)</small>`;
+    }
+  }
+  
   // Show discount row if applied
   let discountRow = document.getElementById("bill-discount-row");
   if (!discountRow) {
