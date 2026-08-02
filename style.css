@@ -1802,32 +1802,36 @@ hr {
 }
 
 .subscription-sampler-box {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px dashed rgba(255, 255, 255, 0.15);
+  background: rgba(124, 58, 237, 0.06);
+  border: 1px dashed rgba(124, 58, 237, 0.3);
   border-radius: 12px;
   padding: 12px;
   margin-top: 14px;
 }
 .subscription-sampler-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 10px;
 }
 .subscription-sampler-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
-  color: var(--text-main);
+  color: #ffffff;
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.subscription-sampler-subtitle {
+.sampler-header-tag {
   font-size: 9px;
-  color: var(--color-zepto-orange);
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
   font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 }
 .sampler-items-scroll {
   display: flex;

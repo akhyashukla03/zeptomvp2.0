@@ -967,8 +967,11 @@ function renderSubscriptionSampler() {
   container.innerHTML = `
     <div class="subscription-sampler-box">
       <div class="subscription-sampler-header">
-        <div class="subscription-sampler-title">🎁 Claim Free Sample <span style="font-size:9px; color:#27c93f; background:rgba(39,201,63,0.15); padding:1px 4px; border-radius:4px; margin-left:4px;">✓ 57% Live Choice</span></div>
-        <div class="subscription-sampler-subtitle">Discovery Pass</div>
+        <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:2px;">
+          <span class="subscription-sampler-title">🎁 Claim Free Sample</span>
+          <span class="sampler-header-tag">Discovery Pass</span>
+        </div>
+        <div style="font-size:10px; color:#34d399; font-weight:600;">✓ 57% Cohort Choice · Rides Free in Bag</div>
       </div>
       <div class="sampler-items-scroll">
         ${sortedSamples.map(sample => {
