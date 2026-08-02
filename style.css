@@ -2191,8 +2191,23 @@ hr {
   color: #a9b7c6;
 }
 
+/* Suppress Streamlit Cloud Badges & Overlays */
+div[class*="viewerBadge"],
+div[class*="styles_viewerBadge"],
+div[class*="stViewerBadge"],
+div[class*="stStatusWidget"],
+div[class*="StatusWidget"],
+div[class*="stAppViewer"],
+div[class*="Profile"],
+a[href*="streamlit"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* ==========================================
-   PITCH DECK SLIDE VIEWER STYLES
+   DESIGN SYSTEM TOKENS & UTILITIES
    ========================================== */
 .deck-viewer-container {
   display: flex;
