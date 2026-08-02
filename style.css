@@ -575,7 +575,7 @@ p {
 /* 6. User Research Hub Styles (Tab 2) */
 .research-grid {
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 24px;
 }
 .interviews-panel {
@@ -583,7 +583,7 @@ p {
   border: 1px solid var(--border-card);
   border-radius: var(--border-radius-lg);
   padding: 24px;
-  max-height: 600px;
+  max-height: 620px;
   overflow-y: auto;
 }
 .interviewee-list {
@@ -593,7 +593,7 @@ p {
   margin-top: 16px;
 }
 .interviewee-card {
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.03);
   border: 1px solid var(--border-card);
   border-radius: var(--border-radius-md);
   padding: 16px;
@@ -602,28 +602,34 @@ p {
   text-align: left;
 }
 .interviewee-card:hover {
-  background: rgba(130, 36, 227, 0.05);
+  background: rgba(130, 36, 227, 0.1);
   border-color: var(--border-active);
 }
 .interviewee-card.active {
-  background: rgba(130, 36, 227, 0.15);
-  border-color: var(--color-zepto-purple);
+  background: rgba(130, 36, 227, 0.25);
+  border: 1px solid var(--color-zepto-purple);
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.3);
 }
 .int-name {
   font-family: var(--font-display);
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #ffffff;
 }
 .int-meta {
-  font-size: 12px;
-  color: var(--text-muted);
+  font-size: 13px;
+  color: #cbd5e1;
   margin-top: 4px;
 }
 .int-persona {
-  font-size: 13px;
-  color: var(--color-zepto-orange);
+  font-size: 12px;
+  color: #f59e0b;
   margin-top: 8px;
-  font-weight: 500;
+  font-weight: 600;
+  background: rgba(245, 158, 11, 0.12);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .transcript-panel {
@@ -631,7 +637,7 @@ p {
   border: 1px solid var(--border-card);
   border-radius: var(--border-radius-lg);
   padding: 24px;
-  height: 600px;
+  height: 620px;
   display: flex;
   flex-direction: column;
 }
@@ -643,10 +649,11 @@ p {
 .transcript-header h3 {
   font-size: 18px;
   font-weight: 700;
+  color: #ffffff;
 }
 .transcript-header-meta {
   font-size: 13px;
-  color: var(--text-muted);
+  color: #cbd5e1;
   margin-top: 4px;
 }
 .transcript-body {
@@ -658,39 +665,44 @@ p {
   gap: 16px;
 }
 .chat-message {
-  max-width: 80%;
-  padding: 12px 16px;
-  border-radius: 12px;
+  max-width: 85%;
+  padding: 14px 18px;
+  border-radius: 14px;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 .msg-interviewer {
   align-self: flex-start;
-  background: rgba(255,255,255,0.05);
+  background: #1e182d;
+  color: #f8fafc;
   border-bottom-left-radius: 2px;
-  border: 1px solid var(--border-card);
+  border: 1px solid rgba(255,255,255,0.12);
 }
 .msg-respondent {
   align-self: flex-end;
-  background: var(--color-zepto-purple-dark);
-  color: #fff;
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: #ffffff;
   border-bottom-right-radius: 2px;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
 }
 .msg-author {
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 4px;
-  opacity: 0.7;
+  margin-bottom: 6px;
+  color: #f59e0b;
   letter-spacing: 0.05em;
 }
 .transcript-summary-footer {
   margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border-card);
-  font-size: 13px;
-  color: var(--color-zepto-yellow);
-  font-weight: 500;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(30, 20, 50, 0.9), rgba(40, 20, 70, 0.9));
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #f59e0b;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /* Validation Scorecard Styling */
@@ -739,21 +751,25 @@ p {
 .status-challenge { background: rgba(255, 82, 82, 0.15); color: var(--color-zepto-orange); }
 .scorecard-item h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #ffffff;
   margin-bottom: 8px;
   padding-right: 90px;
 }
 .scorecard-desc {
-  font-size: 13px;
-  color: var(--text-muted);
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.6;
   margin-bottom: 12px;
 }
 .scorecard-evidence {
-  font-size: 12px;
-  color: var(--text-main);
-  background: rgba(0,0,0,0.15);
-  padding: 8px 12px;
+  font-size: 13px;
+  color: #f8fafc;
+  background: rgba(0,0,0,0.35);
+  border-left: 3px solid var(--color-zepto-purple);
+  padding: 10px 14px;
   border-radius: 6px;
+  line-height: 1.5;
 }
 
 /* 7. Zepto AI MVP Prototype (Tab 3) */
