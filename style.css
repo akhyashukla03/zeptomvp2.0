@@ -947,15 +947,18 @@ p {
 /* Simulated App Content Screen */
 .sim-content {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: auto !important;
   padding: 16px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  scroll-behavior: smooth;
 }
 .sim-screen {
   display: none;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
+  padding-bottom: 30px;
 }
 .sim-screen.active {
   display: flex;
@@ -1045,7 +1048,8 @@ p {
   border: 1px solid rgba(255,255,255,0.04);
   border-radius: 12px;
   padding: 16px;
-  margin-bottom: 80px; /* Space for sticky bottom button */
+  margin-top: 12px;
+  margin-bottom: 110px !important; /* Prevents sticky bottom proceed bar overlap */
 }
 .bill-details-card h4 {
   font-size: 13px;
