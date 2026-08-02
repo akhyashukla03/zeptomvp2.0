@@ -686,11 +686,18 @@ function applyFilters() {
     const srcLower = source.toLowerCase();
     filtered = filtered.filter(r => r.source && r.source.toLowerCase().includes(srcLower));
   }
+
   if (barrier !== "all") {
-    filtered = filtered.filter(r => r.barrier_identified === barrier);
+    const bLower = barrier.toLowerCase();
+    filtered = filtered.filter(r => {
+      if (!r.barrier_identified) return false;
+      const rLower = r.barrier_identified.toLowerCase();
+      return rLower.includes(bLower) || bLower.includes(rLower);
+    });
   }
+
   if (sentiment !== "all") {
-    filtered = filtered.filter(r => r.sentiment === sentiment);
+    filtered = filtered.filter(r => r.sentiment && r.sentiment.toLowerCase() === sentiment.toLowerCase());
   }
 
   renderTable(filtered);
