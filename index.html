@@ -17,32 +17,29 @@
       <div class="logo-circle">⚡</div>
       <div class="logo-text">
         <span class="brand-name">zepto</span>
-        <span class="portal-badge">Growth Portal</span>
+        <span class="portal-badge">MVP Growth Trial</span>
       </div>
     </div>
     <nav class="nav-tabs">
-      <button class="tab-btn active" id="tab-btn-engine" onclick="switchTab('engine')">
-        <span class="tab-icon">📊</span> PM Discovery Engine
+      <button class="tab-btn active" id="tab-btn-prototype" onclick="switchTab('prototype')">
+        <span class="tab-icon">📱</span> Live MVP Prototype Trial
+      </button>
+      <button class="tab-btn" id="tab-btn-engine" onclick="switchTab('engine')">
+        <span class="tab-icon">🧠</span> Review Analysis Workflow (10k Reviews)
       </button>
       <button class="tab-btn" id="tab-btn-research" onclick="switchTab('research')">
-        <span class="tab-icon">👥</span> User Research Hub
-      </button>
-      <button class="tab-btn" id="tab-btn-prototype" onclick="switchTab('prototype')">
-        <span class="tab-icon">📱</span> Zepto AI MVP
+        <span class="tab-icon">👥</span> Primary User Research
       </button>
       <button class="tab-btn" id="tab-btn-deck" onclick="switchTab('deck')">
-        <span class="tab-icon">🖼️</span> 10-Slide Pitch Deck
+        <span class="tab-icon">📄</span> 10-Slide Pitch Deck
       </button>
     </nav>
     <div class="header-actions">
-      <button class="btn btn-accent btn-sm" onclick="startGuidedTour()" style="margin-right:8px; font-weight:700; letter-spacing:0.02em; border-radius:8px;">
-        ✨ Start Guided Tour
-      </button>
-      <button class="theme-toggle" id="theme-toggle-btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
-        <span id="theme-icon">☀️</span>
-      </button>
-      <a href="data/reviews_dataset.json" download="reviews_dataset.json" class="btn btn-secondary btn-sm" id="download-dataset-btn">
-        📥 Download JSON Data
+      <a href="NL_Zepto_Growth_PM_Graduation_Project.pdf" download="NL_Zepto.pdf" class="btn btn-accent btn-sm" style="font-weight:700; border-radius:8px; text-decoration:none;">
+        📄 Download PDF Deck
+      </a>
+      <a href="https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1" target="_blank" class="btn btn-secondary btn-sm" style="border-radius:8px; text-decoration:none;">
+        🎨 Figma System
       </a>
     </div>
   </header>
@@ -51,7 +48,7 @@
   <main class="portal-main">
 
     <!-- TAB 1: PM DISCOVERY ENGINE -->
-    <section id="tab-engine" class="tab-content active">
+    <section id="tab-engine" class="tab-content">
       <!-- Self-Explaining Evaluator Startup Banner -->
       <div class="evaluator-hero-banner" style="background: linear-gradient(135deg, #1e1430, #281545); border: 2px solid #7c3aed; border-radius: 12px; padding: 18px 24px; margin-bottom: 20px;">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
@@ -448,7 +445,7 @@ function createZeptoPrimaryResearchForm() {
 
 
     <!-- TAB 3: ZEPTO AI MVP PROTOTYPE -->
-    <section id="tab-prototype" class="tab-content">
+    <section id="tab-prototype" class="tab-content active">
       <div class="section-hero">
         <h1>Zepto AI-Powered MVP: "Routine Companion"</h1>
         <p>Simulating the customer experience on a mobile interface. Witness how the AI-powered Widget nudges a habitual grocery buyer into cross-category adoption during the checkout flow.</p>
