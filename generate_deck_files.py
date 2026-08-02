@@ -438,10 +438,6 @@ def build_pptx_deck():
         except Exception:
             continue
         
-    try:
-        shutil.copy(out_pptx, "Zepto_Growth_PM_Graduation_Project.pptx")
-    except Exception:
-        pass
     print(f"✅ Successfully created PowerPoint presentation: {out_pptx}")
     return slides_data
 
@@ -639,10 +635,6 @@ def build_pdf_deck(slides_data):
         canvas.restoreState()
 
     doc.build(story, onFirstPage=draw_bg, onLaterPages=draw_bg)
-    try:
-        shutil.copy(pdf_filename, "Zepto_Growth_PM_Graduation_Project.pdf")
-    except Exception:
-        pass
     print(f"✅ Successfully created PDF presentation: {pdf_filename}")
 
 if __name__ == "__main__":
