@@ -7,40 +7,35 @@ st.set_page_config(
     page_title="Zepto Cross-Category Discovery | Live MVP Trial",
     page_icon="⚡",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
-# Custom Sleek Dark Styling
+# Hide Streamlit Sidebar & Maximize Canvas Width
 st.markdown("""
     <style>
+    /* Hide Streamlit Sidebar Completely */
+    [data-testid="stSidebar"] {
+        display: none !important;
+    }
+    [data-testid="stSidebarCollapsedControl"] {
+        display: none !important;
+    }
     .stApp {
         background-color: #130d1e;
         color: #ffffff;
     }
-    .stButton>button {
-        background: linear-gradient(135deg, #7c3aed, #9333ea);
-        color: white;
-        font-weight: bold;
-        border-radius: 8px;
-        border: none;
+    .block-container {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        max-width: 100% !important;
+    }
+    footer {
+        display: none !important;
     }
     </style>
 """, unsafe_allow_html=True)
-
-# Sidebar Navigation
-st.sidebar.title("⚡ Zepto PM Portal")
-st.sidebar.caption("Growth PM Graduation Project Submission")
-
-page = st.sidebar.radio(
-    "Select Live Component:",
-    [
-        "📱 Live MVP Prototype Trial",
-        "🧠 AI Review Analysis Workflow (10k Reviews)"
-    ]
-)
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("🎨 **[Open Figma Vector Design System](https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1)**")
 
 # Helper function to build self-contained HTML bundle
 def get_bundled_html():
@@ -87,15 +82,5 @@ def get_bundled_html():
 
 bundled_html = get_bundled_html()
 
-def render_portal(height=1150):
-    components.html(bundled_html, height=height, scrolling=True)
-
-if page == "📱 Live MVP Prototype Trial":
-    st.title("📱 Zepto AI Cross-Category Discovery MVP")
-    st.caption("Interactive live mobile simulator: Persona Neha, ₹0 B2B Sampler, Category Streak 2x Points, SkinMatch AI, Model B Dark Store CCTV Quality Vault.")
-    render_portal(1150)
-
-elif page == "🧠 AI Review Analysis Workflow (10k Reviews)":
-    st.title("🧠 AI Review Analysis Workflow Engine")
-    st.caption("Ingested 10,000 customer review records across 10 social channels to identify buying frictions and feature demands.")
-    render_portal(1150)
+# Render Full-Width Interactive Web Application
+components.html(bundled_html, height=1250, scrolling=True)
