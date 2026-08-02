@@ -1004,6 +1004,29 @@ p {
   cursor: pointer;
 }
 
+.discovery-pass-badge {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.2), rgba(147, 51, 234, 0.2));
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.badge-cohort-tag {
+  font-size: 9px;
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.15);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
 /* Sim Cart Items */
 .sim-cart-list {
   display: flex;
@@ -1922,33 +1945,34 @@ hr {
 
 /* 14. Zepto Routine Quest Board Styles */
 .quest-board-box {
-  background: linear-gradient(135deg, rgba(27, 19, 40, 0.8), rgba(0, 0, 0, 0.9));
-  border: 1px solid rgba(255, 193, 7, 0.3);
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px dashed rgba(16, 185, 129, 0.3);
   border-radius: 12px;
   padding: 12px;
   margin-top: 14px;
 }
 .quest-board-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 10px;
 }
 .quest-board-title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
-  color: var(--color-zepto-yellow);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .quest-board-streak {
   font-size: 10px;
   font-weight: 700;
-  color: #fff;
-  background: rgba(255, 193, 7, 0.2);
-  border: 1px solid var(--color-zepto-yellow);
-  padding: 2px 6px;
-  border-radius: 4px;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 2px 8px;
+  border-radius: 10px;
 }
 .quest-stickers-row {
   display: flex;

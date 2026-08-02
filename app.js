@@ -1038,8 +1038,11 @@ function renderQuestBoard() {
   container.innerHTML = `
     <div class="quest-board-box">
       <div class="quest-board-header">
-        <div class="quest-board-title">🏆 Category Streak Board <span style="font-size:9px; color:#27c93f; background:rgba(39,201,63,0.15); padding:1px 4px; border-radius:4px; margin-left:4px;">✓ 86% Live Choice</span></div>
-        <div class="quest-board-streak">Streak: ${activeCount}/5</div>
+        <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:2px;">
+          <span class="quest-board-title">🏆 Category Streak Board</span>
+          <span class="quest-board-streak">Streak: ${activeCount}/5</span>
+        </div>
+        <div style="font-size:10px; color:#34d399; font-weight:600;">✓ 86% Cohort Choice · Earns 2x Grocery Points</div>
       </div>
       <div class="quest-stickers-row">
         <div class="quest-sticker-item ${hasGroceries ? 'active' : ''}">
