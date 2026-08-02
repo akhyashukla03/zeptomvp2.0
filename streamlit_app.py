@@ -27,7 +27,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Sidebar Navigation & Deliverables
+# Sidebar Navigation
 st.sidebar.title("⚡ Zepto PM Portal")
 st.sidebar.caption("Growth PM Graduation Project Submission")
 
@@ -38,31 +38,6 @@ page = st.sidebar.radio(
         "🧠 AI Review Analysis Workflow (10k Reviews)"
     ]
 )
-
-st.sidebar.markdown("---")
-st.sidebar.subheader("📥 Official Submission Files")
-
-pdf_path = os.path.join(os.path.dirname(__file__), "NL_Zepto_Growth_PM_Graduation_Project.pdf")
-if os.path.exists(pdf_path):
-    with open(pdf_path, "rb") as f:
-        st.sidebar.download_button(
-            label="📄 Download 10-Slide PDF Deck (NL Zepto.pdf)",
-            data=f.read(),
-            file_name="NL Zepto.pdf",
-            mime="application/pdf",
-            use_container_width=True
-        )
-
-pptx_path = os.path.join(os.path.dirname(__file__), "NL_Zepto_Growth_PM_Graduation_Project.pptx")
-if os.path.exists(pptx_path):
-    with open(pptx_path, "rb") as f:
-        st.sidebar.download_button(
-            label="📊 Download Editable PPTX Deck",
-            data=f.read(),
-            file_name="NL_Zepto_Growth_PM_Graduation_Project.pptx",
-            mime="application/vnd.openxmlformats-officedocument.presentationml.presentation",
-            use_container_width=True
-        )
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("🎨 **[Open Figma Vector Design System](https://www.figma.com/design/2gZJHtjmpnI677IhC66PqZ/Untitled?node-id=0-1)**")
