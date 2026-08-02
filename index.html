@@ -547,13 +547,6 @@ function createZeptoPrimaryResearchForm() {
                       <span id="bill-grand-total">Rs. 0</span>
                     </div>
                   </div>
-
-                  <!-- Checkout Action Button -->
-                  <div class="cart-bottom-actions">
-                    <button class="btn-checkout-proceed" onclick="triggerCheckoutNudge()">
-                      <span id="checkout-btn-price">Proceed to Payment · Rs. 0 →</span>
-                    </button>
-                  </div>
                 </div>
 
                 <!-- STATE 2: SUCCESS DELIVERED SCREEN -->
@@ -644,11 +637,15 @@ function createZeptoPrimaryResearchForm() {
                       </button>
                     </div>
 
-                    <button class="btn-decline-nudge" onclick="declineNudgeProduct()">
-                      No thanks, checkout directly
-                    </button>
                   </div>
                 </div>
+              </div>
+
+              <!-- Sticky Cart Bottom Proceed Bar (FIXED AT BOTTOM OF IPHONE SCREEN) -->
+              <div class="cart-bottom-actions" id="cart-bottom-actions-container">
+                <button class="btn-checkout-proceed" onclick="triggerCheckoutNudge()">
+                  <span id="checkout-btn-price">Proceed to Payment · Rs. 0 →</span>
+                </button>
               </div>
 
               <!-- OVERLAY MODAL: DARK-STORE LIVE AUDIT PASS -->

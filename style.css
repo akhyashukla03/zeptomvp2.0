@@ -1049,7 +1049,7 @@ p {
   border-radius: 12px;
   padding: 16px;
   margin-top: 12px;
-  margin-bottom: 110px !important; /* Prevents sticky bottom proceed bar overlap */
+  margin-bottom: 24px !important;
 }
 .bill-details-card h4 {
   font-size: 13px;
@@ -1081,15 +1081,14 @@ hr {
   margin-bottom: 0;
 }
 
-/* Sticky cart bottom proceed bar */
+/* Sticky cart bottom proceed bar (Permanently fixed at bottom of phone screen) */
 .cart-bottom-actions {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  flex-shrink: 0;
   background: #130d1e;
-  border-top: 1px solid rgba(255,255,255,0.05);
-  padding: 16px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 12px 16px;
+  z-index: 100;
 }
 .btn-checkout-proceed {
   background: linear-gradient(135deg, var(--color-zepto-orange), #ff6b4a);
