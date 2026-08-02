@@ -879,6 +879,7 @@ p {
 /* Phone Mockup Frame */
 .iphone-mockup {
   width: 380px;
+  max-width: 100%;
   height: 780px;
   border-radius: 50px;
   background: #1b1625;
@@ -2213,4 +2214,39 @@ hr {
   background: rgba(130, 36, 227, 0.2);
   border-color: var(--color-zepto-purple);
   color: var(--color-zepto-yellow);
+}
+
+/* ==========================================
+   RESPONSIVE LAYOUT & MULTI-SCREEN MEDIA QUERIES
+   ========================================== */
+@media (max-width: 1024px) {
+  .prototype-showcase {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .iphone-mockup {
+    width: 100%;
+    max-width: 380px;
+    height: 740px;
+  }
+}
+
+@media (max-width: 600px) {
+  .iphone-mockup {
+    width: 100%;
+    max-width: 350px;
+    height: 680px;
+    border-width: 8px;
+    border-radius: 36px;
+  }
+  .sim-header {
+    padding-top: 28px;
+  }
+  .cart-bottom-actions {
+    padding: 10px 12px;
+  }
+  .btn-checkout-proceed {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
 }
