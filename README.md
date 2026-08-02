@@ -5,6 +5,8 @@
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-22c55e?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-ffd700?style=for-the-badge)
 
+> 🚀 **NEW**: [**Read the Evaluator's Presentation & Navigation Guide (STARTUP_GUIDE.md)**](STARTUP_GUIDE.md) for a step-by-step presenter script, demo walkthrough, and navigation map!
+
 ---
 
 ## 📌 Executive Summary
