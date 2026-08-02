@@ -368,72 +368,7 @@
           </div>
         </div>
 
-        <!-- Primary Research Survey & Google Form Generator Card -->
-        <div class="span-full google-form-generator-card">
-          <div class="card-header-badge">
-            <h3>📋 Primary Research: Questionnaire & 1-Click Google Form Generator</h3>
-            <span class="badge badge-accent">Google Apps Script Ready</span>
-          </div>
-          <p class="form-card-intro">
-            We have designed an automated Google Apps Script that builds your complete Primary Research Survey in Google Forms with 1 click.
-          </p>
-
-          <div class="form-survey-preview-grid">
-            <div class="survey-info-panel">
-              <h4>📝 Survey Structure & Question Breakdown</h4>
-              <ul class="survey-q-list">
-                <li><strong>Section 1: Habits & Baseline</strong> (Frequency, Categories bought, Primary non-grocery channels)</li>
-                <li><strong>Section 2: Perceived Friction</strong> (Planned vs Emergency, Quality fears, Ecological guilt, Checkout fatigue)</li>
-                <li><strong>Section 3: Concept Validation</strong> (Discovery Pass Sampling, Zepto Routine Quests, 15-Min Replacement, Rs. 100 Voucher)</li>
-                <li><strong>Section 4: Priority Ranking</strong> (Matrix ranking 4 proposed enhancements by user value)</li>
-              </ul>
-            </div>
-
-            <div class="script-copy-panel">
-              <h4>⚡ How to Generate in Your Google Drive:</h4>
-              <ol class="script-steps-list">
-                <li>Open <a href="https://script.google.com" target="_blank" style="color:var(--color-zepto-yellow);">script.google.com</a> (or Google Drive → New → Google Apps Script).</li>
-                <li>Copy the script below and paste it into the editor.</li>
-                <li>Click <strong>Run</strong> at the top toolbar and grant permissions.</li>
-                <li>Your Google Form link will be output in the execution log instantly!</li>
-              </ol>
-              <div class="script-code-box">
-                <button class="btn-copy-code" onclick="copyGoogleFormScript()">📋 Copy Script</button>
-                <pre><code id="code-google-script">// Google Apps Script Form Generator
-function createZeptoPrimaryResearchForm() {
-  var form = FormApp.create("Zepto Quick-Commerce Shopping Habits Survey");
-  form.setDescription("Primary Research survey for Zepto quick-commerce users.");
-  
-  // Section 1: Usage & Categories
-  var q1 = form.addMultipleChoiceItem();
-  q1.setTitle("1. How frequently do you use quick-commerce apps (Zepto, Blinkit)?")
-    .setChoices(["Daily/Alternate days", "1-2 times/week", "2-3 times/month", "Rarely"]);
-    
-  var q2 = form.addCheckboxItem();
-  q2.setTitle("2. Which categories do you CURRENTLY buy on quick-commerce apps?")
-    .setChoices(["Groceries", "Fruits & Veggies", "Snacks", "Beauty/Grooming", "Pet Supplies", "Electronics", "Baby Care", "Household Essentials"]);
-
-  // Section 2: Friction Points
-  var q4 = form.addCheckboxItem();
-  q4.setTitle("4. What prevents you from buying non-groceries on Zepto?")
-    .setChoices(["Planned vs Emergency Mismatch", "Dark Store Quality Fear", "Ecological Guilt", "Checkout Fatigue", "Return/Refund Anxiety"]);
-
-  // Section 3: Feature Concepts
-  var q5 = form.addScaleItem();
-  q5.setTitle("5. Free B2B Brand Trial Sample in Grocery Bag: How likely are you to try?")
-    .setBounds(1, 5).setLabels("1 - Unlikely", "5 - Extremely Likely");
-
-  var q6 = form.addMultipleChoiceItem();
-  q6.setTitle("6. Category Streak Board (2x Grocery Points): Would you buy non-groceries?")
-    .setChoices(["Yes! Cheaper groceries!", "Maybe, if price is competitive", "No"]);
-    
-  Logger.log("Form URL: " + form.getPublishedUrl());
-}</code></pre>
-              </div>
-            </div>
-          </div>
         </div>
-
       </div>
     </section>
 
