@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Pooja Iyer",
+    "name": "Respondent #1",
     "age": 29,
     "profession": "WFH Software Engineer",
     "city": "Bangalore",
@@ -11,10 +11,10 @@
     "transcript": [
       {
         "speaker": "Interviewer",
-        "text": "Thanks for joining, Pooja. Tell me, how often do you use Zepto and what do you typically buy?"
+        "text": "Thanks for joining. Tell me, how often do you use Zepto and what do you typically buy?"
       },
       {
-        "speaker": "Pooja",
+        "speaker": "Respondent #1",
         "text": "I use it almost daily. Honestly, it's a habit. I wake up, see we are out of bread or milk, open the app, and order. I also buy fresh veggies for lunch or dinner. It's always milk, eggs, bread, and basic vegetables."
       },
       {
@@ -22,7 +22,7 @@
         "text": "Have you ever bought non-grocery items on Zepto, like beauty products, pet supplies, or electronics?"
       },
       {
-        "speaker": "Pooja",
+        "speaker": "Respondent #1",
         "text": "Almost never. Wait, I didn't even know they sold pet supplies! I have a cat, and I buy her wet food and litter from Amazon or Heads Up For Tails. Does Zepto really have pet stuff?"
       },
       {
@@ -30,7 +30,7 @@
         "text": "Yes, they have a dedicated Pet Care section. Why do you think you haven't seen it?"
       },
       {
-        "speaker": "Pooja",
+        "speaker": "Respondent #1",
         "text": "Because when I open the app, I am in a hurry. I click the search bar, type 'milk', go to cart, and hit buy. I don't browse the home page. There are too many flashy banners, and my brain just tunes them out as ads."
       },
       {
@@ -38,7 +38,7 @@
         "text": "If Zepto suggested a premium cat treat on your checkout screen with a 20% discount, saying it can arrive in 10 minutes with your milk, would you buy it?"
       },
       {
-        "speaker": "Pooja",
+        "speaker": "Respondent #1",
         "text": "Actually, yes! If it's a brand I recognize like Sheba or Temptations, and it's right there at checkout, I would add it. It saves me a trip or a 2-day wait on Amazon. But I'd only do it if I trust the brand."
       }
     ],
@@ -46,7 +46,7 @@
   },
   {
     "id": 2,
-    "name": "Karan Mehta",
+    "name": "Respondent #2",
     "age": 34,
     "profession": "Product Manager",
     "city": "Mumbai",
@@ -56,10 +56,10 @@
     "transcript": [
       {
         "speaker": "Interviewer",
-        "text": "Karan, what drives your purchases on Zepto, and do you explore other categories?"
+        "text": "Tell me, what drives your purchases on Zepto, and do you explore other categories?"
       },
       {
-        "speaker": "Karan",
+        "speaker": "Respondent #2",
         "text": "Mostly convenience and instant cravings. I order late at night during football matches or work marathons. Chips, sodas, sometimes ice cream. I do see other categories like chargers or grooming, but I avoid them."
       },
       {
@@ -67,7 +67,7 @@
         "text": "What prevents you from buying electronics or personal care items on Zepto?"
       },
       {
-        "speaker": "Karan",
+        "speaker": "Respondent #2",
         "text": "Two things: quality trust and return hassle. If I buy a charging cable on Amazon and it breaks, I click return and they pick it up. On Zepto, the support is just a chatbot. Consumables and gadgets are mostly marked 'non-returnable'. I don't want to waste Rs. 300 on a broken cable with no return option."
       },
       {
@@ -75,7 +75,7 @@
         "text": "What if Zepto offered a '1-week replacement guarantee' explicitly shown on the product card at checkout?"
       },
       {
-        "speaker": "Karan",
+        "speaker": "Respondent #2",
         "text": "That would change my mind. If I see a guaranteed replacement policy for electronics or accessories, I would definitely buy it in an emergency. Otherwise, it feels too risky."
       }
     ],
@@ -83,9 +83,9 @@
   },
   {
     "id": 3,
-    "name": "Dr. Shalini Sen",
+    "name": "Respondent #3",
     "age": 42,
-    "profession": "Pediatrician & Mother of two",
+    "profession": "Healthcare Professional & Parent",
     "city": "Delhi",
     "frequency": "Weekly",
     "typical_cart": "Atta, ghee, fresh fruits, kitchen essentials, laundry detergent",
@@ -93,10 +93,10 @@
     "transcript": [
       {
         "speaker": "Interviewer",
-        "text": "Dr. Sen, as a pediatrician, what are your thoughts on Zepto's expanding categories like Baby Care and Skincare?"
+        "text": "What are your thoughts on Zepto's expanding categories like Baby Care and Skincare?"
       },
       {
-        "speaker": "Shalini",
+        "speaker": "Respondent #3",
         "text": "I use Zepto for standard groceries, but I am extremely cautious about baby formula, diapers, or premium face serums. Quick commerce dark stores are essentially small warehouses. I worry about storage hygiene."
       },
       {
@@ -104,7 +104,7 @@
         "text": "Could you elaborate on the hygiene concerns?"
       },
       {
-        "speaker": "Shalini",
+        "speaker": "Respondent #3",
         "text": "Diaper packs and baby formula boxes can absorb moisture or dust if stored poorly. There are reports of pests in quick commerce warehouses. For food we cook, we wash it. But for a baby's bottle or diaper, it has to be pristine. I buy these from specialized stores or local pharmacies where I can see the storage conditions."
       },
       {
@@ -112,7 +112,7 @@
         "text": "What would reassure you to buy a baby or beauty item on Zepto?"
       },
       {
-        "speaker": "Shalini",
+        "speaker": "Respondent #3",
         "text": "Maybe if they have a 'Seal of Hygiene' or show that the product is directly shipped from a certified brand distributor and packed in a sealed, tamper-proof bag. Some visual proof of clean storage and safety standard compliance would help."
       }
     ],
@@ -120,9 +120,9 @@
   },
   {
     "id": 4,
-    "name": "Ankit Verma",
+    "name": "Respondent #4",
     "age": 24,
-    "profession": "College Student",
+    "profession": "Postgraduate Student",
     "city": "Pune",
     "frequency": "2-3 times a week",
     "typical_cart": "Maggi noodles, Red Bull, chips, bread, curd, eggs",
@@ -130,10 +130,10 @@
     "transcript": [
       {
         "speaker": "Interviewer",
-        "text": "Ankit, do you ever look at home utilities or cleaning items on Zepto?"
+        "text": "Do you ever look at home utilities or cleaning items on Zepto?"
       },
       {
-        "speaker": "Ankit",
+        "speaker": "Respondent #4",
         "text": "Not really. I share an apartment with roommates. We buy laundry detergent and garbage bags in bulk from DMart once a month. Zepto is too expensive for these things. We only buy groceries or snacks here when we run out suddenly."
       },
       {
@@ -141,7 +141,7 @@
         "text": "So price is the main factor?"
       },
       {
-        "speaker": "Ankit",
+        "speaker": "Respondent #4",
         "text": "Yes. A bottle of Vim liquid is cheaper in DMart, and they give buy-one-get-one offers. Zepto charges MRP plus delivery and handling fees. It doesn't make sense to order household utilities unless it's a literal emergency, like running out of garbage bags on cleaning day."
       },
       {
@@ -149,7 +149,7 @@
         "text": "If Zepto matched DMart prices or offered a bulk discount bundle on your routine items, would you switch?"
       },
       {
-        "speaker": "Ankit",
+        "speaker": "Respondent #4",
         "text": "If they have combo packs that match supermarket pricing, yes, because carrying heavy detergent bottles from DMart is a pain. 10-minute delivery for heavy household items at matching prices would be awesome."
       }
     ],
@@ -157,9 +157,9 @@
   },
   {
     "id": 5,
-    "name": "Ramesh Gupta",
+    "name": "Respondent #5",
     "age": 65,
-    "profession": "Retired Banker",
+    "profession": "Retired Professional",
     "city": "Gurgaon",
     "frequency": "Daily",
     "typical_cart": "Fresh milk, paneer, brown bread, apples, tomatoes, tea bags",
@@ -167,10 +167,10 @@
     "transcript": [
       {
         "speaker": "Interviewer",
-        "text": "Mr. Gupta, how has your experience been with Zepto, and do you buy anything beyond groceries?"
+        "text": "How has your experience been with Zepto, and do you buy anything beyond groceries?"
       },
       {
-        "speaker": "Ramesh",
+        "speaker": "Respondent #5",
         "text": "My son set it up for me. It is very useful because I cannot carry heavy bags from the market. I order milk and bread every day. Once, my kitchen tap was leaking and I saw a Teflon tape and small wrench on Zepto. I ordered it and it came in 10 minutes. I was shocked and happy."
       },
       {
@@ -178,7 +178,7 @@
         "text": "How did you find that tape and wrench?"
       },
       {
-        "speaker": "Ramesh",
+        "speaker": "Respondent #5",
         "text": "I had to search specifically. Usually, I don't see these items in the app. I thought they only sold food items. I think they should show these items to us when we buy household items. For example, if I buy dishwashing soap, show me a scrub or kitchen sponge."
       },
       {
@@ -186,7 +186,7 @@
         "text": "So you prefer contextual recommendations rather than searching?"
       },
       {
-        "speaker": "Ramesh",
+        "speaker": "Respondent #5",
         "text": "Yes, because I don't know what is available. If the app suggests a relevant cleaning cloth when I buy dishwashing liquid, I would buy it because it makes sense. I don't want to search the whole app."
       }
     ],
