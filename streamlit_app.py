@@ -26,17 +26,19 @@ st.markdown("""
         visibility: hidden !important;
         height: 0px !important;
     }
-    /* Hide Streamlit Cloud Floating Paper Boat Logo, Viewer Badge & Profile Avatar */
+    /* Hide Streamlit Cloud Floating Paper Boat Logo, Viewer Badge & Profile Avatar (Created by akhyashukla03) */
     [data-testid="stStatusWidget"],
     [data-testid="stViewerBadge"],
     .stViewerBadge,
     .viewerBadge,
     div[class*="viewerBadge"],
+    div[class*="styles_viewerBadge"],
     div[class*="stViewerBadge"],
     div[class*="StatusWidget"],
     div[class*="stAppViewer"],
     div[class*="Profile"],
-    a[href*="streamlit.app"] {
+    div[class*="viewerBadge_container"],
+    a[href*="streamlit"] {
         display: none !important;
         visibility: hidden !important;
         opacity: 0 !important;

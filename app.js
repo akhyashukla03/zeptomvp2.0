@@ -463,8 +463,46 @@ const PERSONA_CONFIGS = {
   }
 };
 
+// Function to hide Streamlit Cloud's top-level parent viewer badge & Created by tag
+function hideStreamlitCloudBadge() {
+  try {
+    const parentDoc = window.parent.document;
+    const styleId = "hide-streamlit-badge-style";
+    if (!parentDoc.getElementById(styleId)) {
+      const style = parentDoc.createElement("style");
+      style.id = styleId;
+      style.innerHTML = `
+        div[class*="viewerBadge"],
+        div[class*="styles_viewerBadge"],
+        div[class*="stAppViewer"],
+        div[class*="stStatusWidget"],
+        div[class*="StatusWidget"],
+        div[class*="stDecoration"],
+        div[class*="Profile"],
+        a[href*="streamlit"],
+        footer,
+        .stFooter {
+          display: none !important;
+          visibility: hidden !important;
+          opacity: 0 !important;
+          pointer-events: none !important;
+          height: 0px !important;
+          width: 0px !important;
+        }
+      `;
+      parentDoc.head.appendChild(style);
+    }
+  } catch (e) {
+    // Cross-origin fallback
+  }
+}
+
+hideStreamlitCloudBadge();
+setInterval(hideStreamlitCloudBadge, 500);
+
 // 1. Initialize Portal
 window.addEventListener("DOMContentLoaded", () => {
+  hideStreamlitCloudBadge();
   loadAllData();
   setPersona(currentPersona);
 });
