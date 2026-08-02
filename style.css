@@ -186,15 +186,16 @@ p {
 .app-header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 99999;
   background-color: var(--bg-header);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-card);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
-  height: 72px;
+  padding: 12px 24px;
+  min-height: 72px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 .header-logo {
   display: flex;

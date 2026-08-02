@@ -10,14 +10,15 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Hide Streamlit Sidebar & Maximize Canvas Width
+# Hide Streamlit Header & Sidebar Completely to Ensure 100% Top Header Visibility
 st.markdown("""
     <style>
-    /* Hide Streamlit Sidebar Completely */
-    [data-testid="stSidebar"] {
+    /* Hide Streamlit Default Top Header & Sidebar */
+    header[data-testid="stHeader"], [data-testid="stHeader"] {
         display: none !important;
+        height: 0px !important;
     }
-    [data-testid="stSidebarCollapsedControl"] {
+    [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] {
         display: none !important;
     }
     .stApp {
@@ -25,10 +26,10 @@ st.markdown("""
         color: #ffffff;
     }
     .block-container {
-        padding-top: 0.5rem !important;
+        padding-top: 0rem !important;
         padding-bottom: 0rem !important;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
         max-width: 100% !important;
     }
     footer {
