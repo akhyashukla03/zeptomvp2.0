@@ -1,0 +1,20 @@
+<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="850" rx="40" fill="#130D1E"/>
+  <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
+  <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🕒 Restock Cadence Interception</text>
+  
+  <rect x="20" y="105" width="360" height="390" rx="16" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="40" y="125" width="320" height="100" rx="12" fill="#281545" stroke="#F59E0B"/>
+  <text x="55" y="152" fill="#F59E0B" font-family="Arial" font-size="12" font-weight="bold">🕒 RESTOCK INTERCEPT ACTIVE</text>
+  <text x="55" y="172" fill="#FFFFFF" font-family="Arial" font-size="11" font-weight="bold">Cetaphil Cleanser due in 2 days.</text>
+  <text x="55" y="190" fill="#94A3B8" font-family="Arial" font-size="10">Intercepting Amazon order with ₹0 sample.</text>
+
+  <rect x="40" y="240" width="320" height="120" rx="10" fill="#0F172A" stroke="#7C3AED"/>
+  <text x="55" y="265" fill="#10B981" font-family="Arial" font-size="12" font-weight="bold">✓ Brand-Funded Free Trial Sample</text>
+  <text x="55" y="285" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Cetaphil Gentle Cleanser (15ml)</text>
+  <text x="55" y="305" fill="#94A3B8" font-family="Arial" font-size="10">Funded by beauty margin (35%) · ₹0</text>
+  
+  <rect x="40" y="380" width="320" height="45" rx="8" fill="#7C3AED"/>
+  <text x="110" y="407" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Claim Free Sample (₹0)</text>
+</svg>

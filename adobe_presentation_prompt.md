@@ -1,0 +1,115 @@
+# Prompt for Adobe Slide Deck Generation
+
+Copy the prompt block below and feed it into Adobe Express, Gamma, Tome, or any AI slide generator to build a highly polished, visually stunning presentation.
+
+```markdown
+Create a premium, professional 10-slide pitch deck (16:9 widescreen) for a Quick-Commerce Growth PM initiative. The design theme must be ultra-modern Dark Mode: deep slate grey background (#0B0F19), rich electric purple (#7C3AED) for primary headings and accents, emerald green (#10B981) for positive metrics and charts, and amber gold (#F59E0B) for alerts or highlighted features. Use Outfit or Inter clean sans-serif typography. Keep pages clean, asymmetrical, and highly visual with data cards and layout blocks—do not use walls of text.
+
+Slide 1: Title & Strategic Context
+- Tagline: CATEGORY STREAK + GROCERY POINTS CROSS-SUBSIDY MODEL
+- Title: Zepto Expands Blended Gross Margin by Converting Daily Grocery Habits into Recurring Multi-Category Buying
+- Subtitle: Funding grocery point rewards from high-margin non-grocery categories to bypass traditional P&L subsidy limits.
+- Content:
+  * Left Panel (The Stagnation): 71.2% of active users are locked into fast daily grocery staple checkouts (<45s) yielding low ~10% margins.
+  * Right Panel (The Leverage): Cross-subsidize 2x grocery points funded directly from high non-grocery margins (35-45% on Beauty/Pets) instead of the P&L. Target lifting 2+ category buyers from 8.2% MAC to 28.4% MAC in 12 months.
+- Layout: Large callout metric card highlighting: "+300bps Gross Margin Lift Potential".
+
+Slide 2: Market Challenge & Planned Mismatch
+- Tagline: CONVENIENCE-JUSTIFIED TOP-UPS VS PLANNED BULK BUYS
+- Title: Users Leak Planned Non-Grocery Spending to Amazon/DMart; MVP Targets Restock Cadence and Trial-to-Repeat Loops
+- Subtitle: Shifting focus from massive bulk orders to convenience-justified trials and replenishment intercepts.
+- Content:
+  * Primary Metric: 83% of surveyed users (20/24) buy planned non-grocery items outside Q-Commerce (Amazon/Nykaa/DMart).
+  * Feature Interceptions:
+    1. Cadence Suggestion Deficit: Rivals suggest generic ads; Zepto intercepts user-specific replenishment timelines 2 days early.
+    2. Trial-to-Repeat Gap: Free B2B samples are claimed once and forgotten. We need a closed-loop habit trigger.
+    3. Return/Quality Frictions: 20.1% fear dark store heat degrades makeup; 17% fear return bot loops.
+- Layout: Two-column comparative table ("Bulk Leaks to Amazon" vs. "Refill Intercepts on Zepto").
+
+Slide 3: Research Insights & Survey Data
+- Tagline: AI REVIEW WORKFLOW & PRIMARY RESEARCH SYNTHESIS
+- Title: Multi-Platform Mixed Review Corpus (10k Items) & Survey Isolate 3 Core Pillars: Delights, Feature Requests & Barriers
+- Subtitle: Ingested 10,000 multi-platform social reviews and N=24 live cohort survey.
+- Content:
+  * 10k Review Corpus: 40% Positive Delights (emergency refills like cat treats, cables); 30% Neutral requests (AI tools, category streaks); 30% Frictions (quality and bulk price fears).
+  * Survey Findings:
+    - 63% prefer grocery points over flat cashbacks (streaks drive core recurring grocery habit).
+    - 33% plan bulk purchases elsewhere; can be intercepted using restock cadence data.
+- Layout: Donut chart showing 40% Delights / 30% Requests / 30% Frictions.
+
+Slide 4: Target User Persona: Neha (Skincare Fan)
+- Tagline: HIGH-FREQUENCY GROCERY BUYERS WHO LEAK NON-GROCERY SPEND
+- Title: High-Frequency Grocery Refillers (79% Weekly+) Form the Prime Wedge to Intercept Planned Non-Grocery Restocks
+- Subtitle: Target retained staple buyers to capture cross-category growth.
+- Content:
+  * Target Cohort: 79% of target cohort orders groceries weekly+; high trust but zero awareness of beauty/pet catalogs.
+  * Persona: Neha, 26, Bangalore · Skincare Enthusiast.
+  * JTBD: "When ordering my morning milk, I want to try premium skincare samples and lock in cheaper daily groceries, so that category discovery directly offsets my living costs."
+  * User Quote: "If trying a new skincare brand on Zepto gets me 2x points on my daily bread, it becomes a monthly category habit."
+- Layout: Left side has a clean profile card (name, age, JTBD, quote); Right side has a placeholder for a mockup of the app interface.
+
+Slide 5: Supply-Side Economics & TAM/SAM/SOM Sizing
+- Tagline: SUPPLY-SIDE MONETIZATION & UNIT ECONOMICS RIGOR
+- Title: Brand-Funded Cross-Subsidy Yields Positive Unit Economics with Immediate Payback on Cross-Category LTV
+- Subtitle: Grocery rewards are funded by non-grocery margins (~35-45%), not from Zepto P&L.
+- Content:
+  * TAM: $18.0B — Total Indian Quick Commerce Market by 2028.
+  * SAM: $4.2B — Non-Grocery Quick Commerce Penetration Potential.
+  * SOM: $480M — Zepto Cross-Category Discovery Capture.
+  * Unit Economics: B2B Brand Sample Fee (+Rs. 15) - Fulfillment Cost (-Rs. 4) = Net Surplus (+Rs. 11/trial). Shifting users to 35%–50% margin categories expands contribution margins.
+- Layout: Asymmetric 3-step vertical funnel graphic displaying TAM, SAM, and SOM figures.
+
+Slide 6: Compounding Data Moats & Defensibility
+- Tagline: COMPOUNDING DATA FLYWHEEL VS COPIABLE PROMOS
+- Title: Zepto's Defensibility Lies in its Restock Cadence Engine and Local Purchase-Graph, Not Copiable Promos
+- Subtitle: Flat discounts are easily copied; restock history and PIN-code purchase graphs create years of defensibility.
+- Content:
+  * Trivially Copiable: Free samples, coupons, and 15-min doorstep swap policies are copied by rivals in days.
+  * Compounding Moats:
+    1. Cadence Moat: Requires 6-12 months per-user order history to generate accurate restock timing.
+    2. Density Moat: Hyperlocal social proof requires years of PIN-code level dark-store purchase graphs.
+- Layout: Comparison matrix with borders comparing "Copiable Banners" vs. "Compounding Data Moats" across implementation speed and protection depth.
+
+Slide 7: The Flywheel MVP Capabilities
+- Tagline: THE FLYWHEEL MVP: STREAKS, CADENCE NUDGES, OUTCOME CARDS
+- Title: The Discovery MVP Embeds Category Streaks, Cadence Nudges, and Post-Trial Outcome Loop Cards
+- Subtitle: Connecting trials, streaks, and intercepts into a closed-loop category adoption system.
+- Content:
+  * Feature 1: Category Streak Board (pre-stamped Pantry sticker) -> Try 1 new category to get 2x points on next grocery order.
+  * Feature 2: Cadence Interception Nudge -> Predicts restock timing and intercepts bulk buy 2 days before with a free sample.
+  * Feature 3: Post-Trial Outcome Loop Card -> Appears 48h later showing hyperlocal reorder rates ("847 near you reordered"), converting trial to repeat.
+- Layout: Step flowchart showing User Journey (Staples Cart -> Interception Nudge -> Success Screen -> 48h Outcome Loop Card).
+
+Slide 8: Technical System Architecture
+- Tagline: FROM A TYPED GROCERY CART TO A TRUSTED CROSS-CATEGORY ORDER. SAME APP, TWO VIEWS.
+- Title: Four-Layer Decision Engine Powers Predictive Restock Nudges and Closed-Loop Brand Attribution
+- Subtitle: Four-layer architecture integrates brand inventory, cart triggers, and loyalty ledgers.
+- Content:
+  * Layer 1 (Client UI): Mobile Cart UI, pre-stamped Streak Board, Cadence widget, post-trial Outcome Card.
+  * Layer 2 (Decision Engine): Restock Inference Engine, Endowed Progress Tracker, Hyperlocal Social Graph Parser.
+  * Layer 3 (Operations): Dark-store picker sample checklist insertion checklists under <3s SLA.
+  * Layer 4 (B2B Marketplace): Brand attribution dashboard tracking cohort conversion rates.
+- Layout: Vertical block diagram showing Layers 1 to 4 stacked.
+
+Slide 9: Incrementality Framework & SLA Guardrails
+- Tagline: INCREMENTAL LIFT VIA RANDOMIZED HOLDOUT GROUPS
+- Title: MCER Growth (8.2% -> 28.4%) Is Validated via Randomized Holdout Groups and SLA Guardrails
+- Subtitle: Measuring true incremental lift via control groups rather than raw attach proxies.
+- Content:
+  * North Star Metric: Monthly Category Exploration Rate (MCER) — % of active users purchasing from 2+ categories/month.
+  * Incrementality: Measured using a 10% randomized holdout control group (no sample/nudge) vs treatment.
+  * Guardrail SLAs: Picker SLA addition capped at <3s per order (zero hardware); Checkout drop-off capped at <0.2% increase.
+- Layout: Callout cards containing the core guardrails and holdout metrics with high-contrast text blocks.
+
+Slide 10: Rollout Roadmap & Privacy Guardrails
+- Tagline: HORIZON 2 ROADMAP & PRIVACY GUARDRAILS
+- Title: Phased GTM Roadmap Launches Horizon 1 MVP While Building Horizon 2 Privacy-Guardrailed Features
+- Subtitle: Phased rollout for Category Streaks, Cadence Intercepts, Lifecycle Moments, and Trend Feeds.
+- Content:
+  * GTM Phases:
+    - Phase 1 (MVP): 30-day pilot in Bangalore (10 stores) of Streaks + Cadence Intercepts + Outcome Cards.
+    - Phase 2 (Growth): Expansion to all Metro cities (150 stores); B2B brand portal launch.
+    - Phase 3 (Horizon 2): Lifecycle Moment Interceptor & Neighbourhood Trend Feed.
+  * Privacy Guardrails: Opt-in only neighborhood feeds, PIN-code minimum, and 50+ user count privacy threshold.
+- Layout: Horizontal timeline roadmap spanning Phases 1 to 3.
+```

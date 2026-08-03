@@ -252,112 +252,128 @@ const FALLBACK_INTERVIEWS = [
 const FALLBACK_DECK = [
   {
     "slide_number": 1,
-    "title": "Shifting from Spammy Checkout Banners to the Zepto Discovery Pass",
-    "subtitle": "Q3 Growth Strategy: Launching a Subscription Sampling Flywheel to Solve Category Lock",
+    "tagline": "CATEGORY STREAK + GROCERY POINTS CROSS-SUBSIDY MODEL",
+    "step_name": "Context",
+    "title": "1. Zepto Expands Blended Gross Margin by Converting Daily Grocery Habits into Recurring Multi-Category Buying",
+    "subtitle": "Funding grocery point rewards from high-margin non-grocery categories to bypass traditional P&L subsidy limits.",
+    "brief": "Role & Scope: PM on Zepto Growth Team driving trust-led cross-category discovery.",
     "content": [
-      "Strategic Goal: Increase Monthly Active Customers (MAC) buying non-groceries by replacing generic checkout recommendations with a subscription-based trial model.",
-      "The Product: Zepto Discovery Pass (Rs. 59/month or premium upgrade in Zepto Pass) giving users free monthly category samples.",
-      "B2B Brand-Sponsored Flywheel: Brands fund trial samples (e.g. 15ml Cetaphil or 30g Pedigree) to get direct access to habitual buyers.",
-      "Economic Impact: Shifting low-margin grocery orders to high-margin personal care/pet care (35% to 50% gross margins)."
+      "Routine Tunnel Vision: 71.2% of users are locked into fast daily grocery staple checkouts (<45 seconds).",
+      "The Margin Disconnect: Groceries yield low ~10% gross margins vs 35%–50% for Beauty, Pet Care, and Home Care.",
+      "Strategic Objective: Lift Monthly Active Customers (MAC) buying from 2+ categories from 8.2% to 28.4% in 12 months.",
+      "Margin Arbitrage: Bypassing direct P&L discounts by funding 2x grocery points from high-margin non-grocery margin (35–45%)."
     ]
   },
   {
     "slide_number": 2,
-    "title": "Social & Store Reviews Uncover Deep Frictions: Mismatched Buying Habits & Expiry Fears",
-    "subtitle": "Why simple checkout widgets fail to drive mass adoption in high-value categories",
+    "tagline": "CONVENIENCE-JUSTIFIED TOP-UPS VS PLANNED BULK BUYS",
+    "step_name": "Market",
+    "title": "2. Users Leak Planned Non-Grocery Spending to Amazon/DMart; MVP Targets Restock Cadence and Trial-to-Repeat Loops",
+    "subtitle": "Shifting focus from massive bulk orders to convenience-justified trials and replenishment intercepts.",
     "content": [
-      "Planned vs. Emergency Mismatch: Skincare, pet food, and diapers are planned bulk monthly purchases. Users don't use 10-minute apps for them.",
-      "Dark Store Expiry Fears: Customers worry dark stores are unventilated dumping grounds for near-expiry or slightly damaged goods.",
-      "Ecological Guilt: Ordering a single accessory or cosmetic item feels environmentally irresponsible due to heavy packaging and rider trips.",
-      "Checkout Impulse Fatigue: Users develop banner blindness to avoid checkout dark patterns (fees, donations, rain alerts)."
+      "Purchasing Leakage: 83% of surveyed users (20/24) buy planned non-grocery items outside QCommerce on Amazon/Nykaa/DMart.",
+      "Cadence Interception Gap: Zepto currently has no reorder suggestions based on user time gaps or past items.",
+      "Trial-to-Repeat Failure: Users claim brand-sponsored free trial samples once and fail to buy full-size.",
+      "Quality & Return Anxiety: 20.1% expiry fear (30% friction subset); 17% refund chatbot loops (4/24)."
     ]
   },
   {
     "slide_number": 3,
-    "title": "The Zepto Discovery Pass: A B2B2C Subscription-Driven Trial Flywheel",
-    "subtitle": "Converting habitual grocery buyers through risk-free monthly brand samples",
+    "tagline": "AI REVIEW WORKFLOW & PRIMARY RESEARCH SYNTHESIS",
+    "step_name": "Research",
+    "title": "3. Multi-Platform Mixed Review Corpus (10k Items) & Survey Isolate 3 Core Pillars: Delights, Feature Requests & Barriers",
+    "subtitle": "Synthesizing 10,000 mixed reviews (40% Positive, 30% Neutral, 30% Negative) and primary survey into actionable insights.",
     "content": [
-      "Monthly Sampling Perk: Subscribers select 1 Free Category Sample (e.g. Cetaphil Cleanser, Portronics Cord, or Cat Treats) to ride for Rs. 0.",
-      "Consolidated Delivery: The sample is packed directly inside their routine grocery bag, eliminating extra delivery trips and ecological guilt.",
-      "The Trial Conversion Path: Users try the sample -> trust the dark-store stock quality -> convert to buying full-size items on Zepto.",
-      "Monthly Rs. 100 Discovery Voucher: A monthly voucher code restricted to categories they have never tried, incentivizing full-size adoption."
+      "Mismatch Barrier: Users plan bulk buys elsewhere (33%, 8/24); we intercept them 2 days prior via restock cadence data.",
+      "Trial-to-Repeat Gap: B2C sampling exists but has no outcome loop or social proof follow-up to convert trial to repeat.",
+      "Cross-Subsidy Appeal: 63% prefer grocery points on streaks (15/24) over flat cashbacks, locking in daily grocery routines."
     ]
   },
   {
     "slide_number": 4,
-    "title": "The B2B Brand Sampling Marketplace Drives zero-CAC Customer Trial",
-    "subtitle": "How Zepto monetizes listing space and sample distribution for brands",
+    "tagline": "HIGH-FREQUENCY GROCERY BUYERS WHO LEAK NON-GROCERY SPEND",
+    "step_name": "Insights",
+    "title": "4. High-Frequency Grocery Refillers (79% Weekly+) Form the Prime Wedge to Intercept Planned Non-Grocery Restocks",
+    "subtitle": "Targeting retained grocery refuelers and using grocery cadence to intercept Amazon purchases 2 days before restock.",
     "content": [
-      "Brand Sponsorship: Brands supply free trial sizes and pay Zepto a listing/distribution fee to place samples in target grocery bags.",
-      "Hyper-Local Targeting: Brands target specific user profiles (e.g. organic vegetable buyers get natural beauty wash samples).",
-      "Zero Customer Acquisition Cost: Zepto leverages existing delivery routes, meaning the incremental cost to distribute a sample is Rs. 0.",
-      "Data Integration Moat: Zepto provides brands with post-trial checkout conversion analytics, creating a sticky B2B revenue source."
+      "Staple Buyers: Order daily staples in <45s; ignore homepage ads but care about grocery points.",
+      "Cadence Targets: Usually buy pet food/detergents monthly; vulnerable to restock nudge intercepts.",
+      "Trial Forgetters: Try free samples in bags but forget to buy full-size without outcome loop follow-ups.",
+      "Streak Completers: Hooked on 2x grocery points; actively look for 1 new category to maintain streak."
     ]
   },
   {
     "slide_number": 5,
-    "title": "Discovery Engine Metrics: Quality Fears and Planned Mismatch Top Social Objections",
-    "subtitle": "Analysis of 110 real Play Store and Reddit customer reviews",
+    "tagline": "SUPPLY-SIDE MONETIZATION & UNIT ECONOMICS RIGOR",
+    "step_name": "Canvas",
+    "title": "5. Brand-Funded Cross-Subsidy Yields Positive Unit Economics with Immediate Payback on Cross-Category LTV",
+    "subtitle": "Grocery rewards are funded by non-grocery margins (~35-45%), not from Zepto P&L.",
     "content": [
-      "Insight Breakdown: Planned vs. Emergency Mismatch (35%), Trust in Quality/Hygiene (25%), Checkout Impulse Fatigue (20%), Ecological Guilt (12%), Lack of Awareness (8%).",
-      "Customer Voice: 'Buying diapers on Zepto feels wrong. It's expensive for small packs. I plan and buy 80-packs from DMart or FirstCry.'",
-      "Storage Voice: 'I worry face wash active ingredients degrade in hot dark stores. I prefer buying from Nykaa where it is safe.'",
-      "Logistics Voice: 'Ordering a single charger cord is eco-unfriendly. Consolidated bags are needed.'"
+      "Grocery Streak Hook: Lift stagnant 8.2% MAC to 28.4% MAC exploration via points.",
+      "Cross-Subsidy Arbitrage: Funded from non-grocery margins (35-45%), keeping points loop sustainable.",
+      "B2B Brand Samples: Brand funded at Rs. 15/unit, acting as a zero-CAC trial on-ramp in bag."
     ]
   },
   {
     "slide_number": 6,
-    "title": "Metro User Interviews Validate Planned Buy Habits and Checkout Page Fatigue",
-    "subtitle": "Primary research confirming review trends and shaping subscription perks",
+    "tagline": "COMPOUNDING DATA FLYWHEEL VS COPIABLE PROMOS",
+    "step_name": "Ideation",
+    "title": "6. Zepto's Defensibility Lies in its Restock Cadence Engine and Local Purchase-Graph, Not Copiable Promos",
+    "subtitle": "Flat discounts are easily copied; restock history and PIN-code purchase graphs create years of defensibility.",
     "content": [
-      "Pooja (WFH Dev, Blr): Cat supplies are planned monthly buys. Reluctant to browse due to homepage clutter. Would claim a free cat food sample.",
-      "Karan (PM, Mum): Avoids gadgets due to return chatbot loops. Validates that a 15-minute home replacement guarantee on subscription orders removes risk.",
-      "Dr. Shalini (Doc, Del): Fears dark-store dust for diapers. Demands brand distributor safety seals and sealed packaging for baby samples.",
-      "Ankit (Student, Pune): Skeptical of household item pricing. Recommends routine grocery + utility combo bundles to match bulk D-Mart prices."
+      "Moat 1 (Cadence): Requires 6-12 months per-user order history to generate accurate restock timing.",
+      "Moat 2 (Hyperlocal Density): Hyperlocal social proof requires years of PIN-code level dark-store purchase graphs.",
+      "Horizon 1 (MVP): Streak loop + Cadence intercept + Outcome cards. RICE: 230.0."
     ]
   },
   {
     "slide_number": 7,
-    "title": "Technical Flow: User Cart Ingestion, Sample Allocation, & Voucher Validation",
-    "subtitle": "Sleek client-side logic powering the Discovery Hub",
+    "tagline": "THE FLYWHEEL MVP: STREAKS, CADENCE NUDGES, OUTCOME CARDS",
+    "step_name": "MVP",
+    "title": "7. The Discovery MVP Embeds Category Streaks, Cadence Nudges, and Post-Trial Outcome Loop Cards",
+    "subtitle": "Connecting trials, streaks, and intercepts into a closed-loop category adoption system.",
     "content": [
-      "Cart Parser: Reads current grocery staples to verify if the cart meets the minimum Zepto Pass delivery threshold.",
-      "Sampler UI Ingestion: Fetches active brand samples from dark store local inventory databases, matching user segment.",
-      "1-Click Sample Insertion: Adds the selected trial sample SKU directly to the cart at Rs. 0.",
-      "Voucher Validation Engine: Validates that the Rs. 100 Discovery Voucher is applied ONLY to full-sized target categories."
+      "Streak Board: Try 1 new category this month -> earn 2x grocery points. Features pre-stamped endowed progress.",
+      "Cadence Nudge: Restock intercept widget fires 2 days before bulk buy (offers ₹0 brand-funded trial pack).",
+      "Outcome Loop Card: Fires 48h post-delivery with PIN-code proof ('847 near you reordered Cetaphil'). Rate & Add to next cart."
     ]
   },
   {
     "slide_number": 8,
-    "title": "The In-App Experience: 1-Click Sampling Hub and Post-Trial Voucher Redemption",
-    "subtitle": "Minimizing cart friction while introducing trial items",
+    "tagline": "FROM A TYPED GROCERY CART TO A TRUSTED CROSS-CATEGORY ORDER. SAME APP, TWO VIEWS.",
+    "step_name": "Architecture",
+    "title": "8. Four-Layer Decision Engine Powers Predictive Restock Nudges and Closed-Loop Brand Attribution",
+    "subtitle": "Four-layer architecture integrates brand inventory, cart triggers, and loyalty ledgers.",
     "content": [
-      "Discovery Pass Header: A premium purple badge ('💎 Zepto Discovery Pass') is injected at the top of the shopping cart screen.",
-      "Free Sample Picker: A clean, horizontal scroll panel inside the cart showing 3 free sponsored samples matching the user persona.",
-      "1-Tap Add: Adding the sample updates the cart instantly as 'Discovery Sample: FREE', prompting zero checkout interruption.",
-      "Follow-up Nudge: 5 days post-delivery, the app triggers a push notification with a 1-click buy button and Rs. 100 coupon code."
+      "Layer 1 (Client UI): Mobile Cart UI, pre-stamped Category Streak Board, Cadence restock widget, Outcome Loop Card.",
+      "Layer 2 (Decision Engine): Restock Cadence Inference Engine, Endowed Progress Tracker, Hyperlocal Social Graph Parser.",
+      "Layer 3 (Operations): Dark-store picker sample insertion checklist.",
+      "Layer 4 (B2B Marketplace): Brand attribution dashboard tracking sample-to-repeat conversion rates."
     ]
   },
   {
     "slide_number": 9,
-    "title": "Subscription Unit Economics: B2B Listing Fees and AOV Lift Outpace Traditional Delivery Fees",
-    "subtitle": "Financial projection modeling margin lift and advertising revenue streams",
+    "tagline": "INCREMENTAL LIFT VIA RANDOMIZED HOLDOUT GROUPS",
+    "step_name": "Metrics",
+    "title": "9. MCER Growth (8.2% -> 28.4%) Is Validated via Randomized Holdout Groups and SLA Guardrails",
+    "subtitle": "Measuring true incremental lift via control groups rather than raw attach proxies.",
     "content": [
-      "B2C Pass Revenue: Rs. 59/month recurring revenue from the Discovery Pass tier adds stable high-margin cash flow.",
-      "B2B Ad Revenue: Brands pay Rs. 15 per sample distributed, covering all handling costs and generating new advertising margins.",
-      "AOV Expansion: Trial conversion increases average non-grocery cart additions, boosting overall AOV by 22% within 90 days.",
-      "Contribution Margin: High gross margins of personal care and pet care expand net order contribution margin from 4% to 11%."
+      "Randomized Holdout Control: 10% control group (no sample/nudge) vs treatment to measure true lift.",
+      "Picker SLA Floor: Packing time addition capped at <3 seconds per order (zero hardware for MVP).",
+      "Privacy Guardrails: Neighbourhood feed requires 50+ users PIN-code threshold and sensitive category blocks."
     ]
   },
   {
     "slide_number": 10,
-    "title": "Pilot Rollout: Bangalore Launch with 10% Subscriber Cohort",
-    "subtitle": "Phased launch roadmap, success guardrails, and continuous feedback loop",
+    "tagline": "HORIZON 2 ROADMAP & PRIVACY GUARDRAILS",
+    "step_name": "GTM",
+    "title": "10. Phased GTM Roadmap Launches Horizon 1 MVP While Building Horizon 2 Privacy-Guardrailed Features",
+    "subtitle": "Phased rollout for Category Streaks, Cadence Intercepts, Lifecycle Moments, and Trend Feeds.",
     "content": [
-      "Phase 1: Roll out the Discovery Pass to a 10% cohort of active Bangalore users for 30 days. Partner with Cetaphil and pedigree.",
-      "Key Success Metrics: Target cross-category conversion (+8% MAC/month) and repeat full-size purchases (+14% post-trial).",
-      "Guardrail Metric: Checkout drop-off must stay below 0.3%. Free sample selection must not delay the 45-second checkout path.",
-      "Continuous Discovery: Monthly Play Store and Reddit scraping pipelines auto-tag feedback for sample quality and warehouse delivery bugs."
+      "Phase 1 (MVP Beta): 30-day pilot of Streaks + Cadence Intercepts + Outcome Cards in Bangalore (10 dark stores).",
+      "Phase 2 (Growth Rollout): Expansion of Horizon 1 to all Metro cities (150 dark stores); launch brand B2B portal.",
+      "Phase 3 (Horizon 2 Beta): Rollout of Lifecycle Moment Interceptor & Neighbourhood Trend Feed under strict privacy rules.",
+      "Phase 4 (GA Rollout): Full national rollout across 500+ dark store hubs."
     ]
   }
 ];
@@ -400,65 +416,65 @@ const PERSONA_CONFIGS = {
   "pet": {
     name: "Pooja (Pet Owner)",
     defaultCart: ["milk", "bread", "eggs"],
-    nudgeIntro: "🧠 Why Recommended: You regularly buy morning breakfast staples and haven't tried pet care yet. Try risk-free with 10-min instant inspection or claim a 0-CAC 30g trial sample in your grocery bag!",
+    nudgeIntro: "🕒 Restock Cadence Intercept: Our model predicts your cat treats run out now. Intercept your Amazon/DMart bulk buy & try this free trial pack today!",
     nudgeProduct: {
       name: "Temptations Cat Treats (Chicken)",
-      qty: "85g pack",
-      price: 140,
+      qty: "85g Pack (Free Trial)",
+      price: 0,
       mrp: 200,
       emoji: "🍖",
       category: "Pet Supplies",
-      discount: "30% OFF",
-      badgeTrust: "Certified Brand Distributor",
-      badgeReturn: "⚡ 10-Min Instant Try & Return"
+      discount: "₹0 TRIAL",
+      badgeTrust: "Funded by Non-Grocery Margin",
+      badgeReturn: "Freshness Guaranteed Badge"
     }
   },
   "beauty": {
     name: "Neha (Skincare Fan)",
     defaultCart: ["milk", "bananas", "coriander"],
-    nudgeIntro: "🧠 Why Recommended: You regularly buy daily dairy & fresh produce and haven't tried personal care yet. Includes 10-min instant shade/product inspection & 0-CAC 15ml trial sample!",
+    nudgeIntro: "🕒 Restock Cadence Intercept: Your facial cleanser runs out every 4 weeks. Claim a 15ml Cetaphil sample inside your grocery bag today for ₹0!",
     nudgeProduct: {
-      name: "Cetaphil Gentle Skin Cleanser",
-      qty: "125ml bottle",
-      price: 280,
-      mrp: 399,
-      emoji: "🧴",
+      name: "Cetaphil Gentle Cleanser",
+      qty: "15ml Trial (Free Sample)",
+      price: 0,
+      mrp: 99,
+      emoji: "🧼",
       category: "Beauty & Grooming",
-      discount: "30% OFF",
-      badgeTrust: "100% Brand Authenticity Seal",
-      badgeReturn: "⚡ 10-Min Instant Try & Return"
+      discount: "₹0 TRIAL",
+      badgeTrust: "Hyperlocal 847 Reorders",
+      badgeReturn: "Freshness Guaranteed Badge"
     }
   },
   "electronics": {
     name: "Karan (WFH Gadgets)",
     defaultCart: ["chips", "eggs", "bread"],
-    nudgeIntro: "🧠 Why Recommended: You regularly order WFH snacks & breakfast and haven't tried tech accessories yet. Includes DeviceLink auto-detect & 10-min instant try-and-return guarantee!",
+    nudgeIntro: "🕒 Restock Cadence Intercept: WFH accessories refresh cycle detected. Try this compatible braided charging cable in your grocery bag at ₹0 risk!",
     nudgeProduct: {
       name: "Portronics Braided USB-C Cable",
-      qty: "1.2 meter",
-      price: 199,
-      mrp: 299,
+      qty: "0.5m Trial (Free Sample)",
+      price: 0,
+      mrp: 199,
       emoji: "🔌",
       category: "Electronics",
-      discount: "33% OFF",
-      badgeTrust: "Safe-Charging Chip Built-in",
-      badgeReturn: "⚡ 10-Min Instant Try & Return"
+      discount: "₹0 TRIAL",
+      badgeTrust: "DeviceLink Auto-Compatible",
+      badgeReturn: "Freshness Guaranteed Badge"
     }
   },
   "household": {
     name: "Ramesh (Home Utility)",
     defaultCart: ["vim", "potato", "coriander"],
-    nudgeIntro: "🧠 Why Recommended: You regularly order dishwash gel & fresh veggies. Get convenience-justified top-up utilities with supermarket price matching and 10-min doorstep inspection!",
+    nudgeIntro: "🕒 Restock Cadence Intercept: Your laundry/dish detergent restock is due. Claim this Scotch-Brite Scrub sample at ₹0 risk in your grocery bag.",
     nudgeProduct: {
-      name: "Scotch-Brite Scrub Pad Combo",
-      qty: "3-Pack Combo",
-      price: 85,
-      mrp: 120,
+      name: "Scotch-Brite Scrub Pad",
+      qty: "1 Unit Trial (Free Sample)",
+      price: 0,
+      mrp: 30,
       emoji: "🧹",
       category: "Household Essentials",
-      discount: "29% OFF",
+      discount: "₹0 TRIAL",
       badgeTrust: "DMart Price Match Guarantee",
-      badgeReturn: "⚡ 10-Min Instant Try & Return"
+      badgeReturn: "Freshness Guaranteed Badge"
     }
   }
 };
@@ -975,8 +991,9 @@ function updatePhoneCartUI() {
     btn.style.pointerEvents = "auto";
   }
 
-  // Populate dynamic Co-Pilot trigger widget
-  renderCoPilotTriggerArea();
+  // Populate dynamic Cadence Nudge & Horizon 2 widgets
+  renderCadenceNudgeArea();
+  renderHorizon2Area();
 }
 
 function applyDiscoveryCoupon() {
@@ -1065,11 +1082,11 @@ function renderQuestBoard() {
     return;
   }
   
-  const hasGroceries = cartItems.some(i => i.category === 'Groceries');
+  const hasGroceries = true; // Pre-stamped grocery head start (Endowed Progress)
   const hasSnacks = cartItems.some(i => i.category === 'Snacks');
-  const hasBeauty = cartItems.some(i => i.category === 'Beauty & Grooming');
-  const hasPets = cartItems.some(i => i.category === 'Pet Supplies');
-  const hasUtility = cartItems.some(i => i.category === 'Electronics' || i.category === 'Household Essentials');
+  const hasBeauty = cartItems.some(i => i.category === 'Beauty & Grooming' || i.name && i.name.includes("Cetaphil"));
+  const hasPets = cartItems.some(i => i.category === 'Pet Supplies' || i.name && (i.name.includes("Pedigree") || i.name.includes("Temptations")));
+  const hasUtility = cartItems.some(i => i.category === 'Electronics' || i.category === 'Household Essentials' || i.name && (i.name.includes("Portronics") || i.name.includes("Scotch-Brite")));
   
   const activeCount = [hasGroceries, hasSnacks, hasBeauty, hasPets, hasUtility].filter(Boolean).length;
   
@@ -1080,12 +1097,12 @@ function renderQuestBoard() {
           <span class="quest-board-title">🏆 Category Streak Board</span>
           <span class="quest-board-streak">Streak: ${activeCount}/5</span>
         </div>
-        <div style="font-size:10px; color:#34d399; font-weight:600;">✓ 86% Cohort Choice · Earns 2x Grocery Points</div>
+        <div style="font-size:10px; color:#34d399; font-weight:600;">✓ Pre-stamped Grocery Sticker (Endowed Progress) · 2x Grocery Points</div>
       </div>
       <div class="quest-stickers-row">
         <div class="quest-sticker-item ${hasGroceries ? 'active' : ''}">
           <span class="sticker-icon">🥛</span>
-          <div class="sticker-label">Pantry</div>
+          <div class="sticker-label">Pantry (Stamped ✓)</div>
         </div>
         <div class="quest-sticker-item ${hasSnacks ? 'active' : ''}">
           <span class="sticker-icon">🍿</span>
@@ -1114,8 +1131,8 @@ function renderQuestBoard() {
   `;
 }
 
-function renderCoPilotTriggerArea() {
-  const area = document.getElementById("sim-copilot-trigger-area");
+function renderCadenceNudgeArea() {
+  const area = document.getElementById("sim-cadence-nudge-area");
   if (!area) return;
   
   if (cartItems.length === 0) {
@@ -1123,106 +1140,116 @@ function renderCoPilotTriggerArea() {
     return;
   }
   
-  let icon = "⚡";
-  let title = "";
-  let desc = "";
-  let actionText = "";
-  let clickAction = "";
-  
-  if (currentPersona === 'pet') {
-    icon = "🐾";
-    title = "PetCare Profile Active";
-    desc = "Luna (Cat, 2yo) nutrition matching available.";
-    actionText = "Open Profile";
-    clickAction = "triggerCoPilotScan('pet')";
-  } else if (currentPersona === 'beauty') {
-    icon = "💄";
-    title = "SkinMatch AI Active";
-    desc = "Scan skin tone undertone to match cosmetic shades.";
-    actionText = "Scan Now";
-    clickAction = "triggerCoPilotScan('beauty')";
-  } else if (currentPersona === 'electronics') {
-    icon = "🔌";
-    title = "DeviceLink Active";
-    desc = "Auto-detect mobile model for compatible chargers.";
-    actionText = "Auto Detect";
-    clickAction = "triggerCoPilotScan('electronics')";
-  } else if (currentPersona === 'household') {
-    icon = "🧹";
-    title = "Household Combo Match";
-    desc = "Price match your groceries to bulk supermarket savings.";
-    actionText = "Price Match";
-    clickAction = "triggerCoPilotScan('household')";
-  }
+  const conf = PERSONA_CONFIGS[currentPersona];
   
   area.innerHTML = `
-    <div class="copilot-trigger-card" onclick="${clickAction}">
-      <span class="copilot-trigger-icon">${icon}</span>
-      <div class="copilot-trigger-info">
-        <div class="copilot-trigger-title">${title}</div>
-        <div class="copilot-trigger-desc">${desc}</div>
+    <div class="copilot-trigger-card" onclick="triggerCheckoutNudge()" style="background: linear-gradient(135deg, #1d1230, #130b20); border: 1.5px solid var(--color-zepto-yellow); padding: 12px; border-radius: 12px; margin-top: 12px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: var(--transition-smooth);">
+      <div style="display: flex; align-items: center; gap: 10px; text-align: left;">
+        <span style="font-size: 20px;">🕒</span>
+        <div>
+          <div style="font-weight: 700; font-size: 12px; color: var(--color-zepto-yellow);">🕒 Cadence Interception Nudge Active</div>
+          <div style="font-size: 10px; color: #e2d9f3; margin-top: 2px;">Restock due in 2 days. Tap to claim ₹0 sample pack.</div>
+        </div>
       </div>
-      <span class="copilot-trigger-action">${actionText}</span>
+      <span style="font-size: 9px; font-weight: 700; background: var(--color-zepto-yellow); color: #000; padding: 4px 8px; border-radius: 6px; text-transform: uppercase;">CLAIM</span>
     </div>
   `;
 }
 
-function triggerCoPilotScan(type) {
-  if (type === 'beauty') {
-    // Show camera scanner screen on the phone
-    document.getElementById("sim-screen-cart").classList.remove("active");
-    document.getElementById("sim-screen-camera").classList.add("active");
-    
-    // Simulate scan steps
-    const label = document.getElementById("camera-status-label");
-    label.textContent = "Opening front camera...";
-    
-    setTimeout(() => {
-      label.textContent = "Analyzing skin tone undertones (30%)...";
-    }, 700);
-    
-    setTimeout(() => {
-      label.textContent = "Detecting skin color profile (70%)...";
-    }, 1400);
-    
-    setTimeout(() => {
-      label.textContent = "Undertone found: Warm Golden! Matching lipsticks...";
-    }, 2100);
-    
-    setTimeout(() => {
-      // Return to cart screen
-      document.getElementById("sim-screen-camera").classList.remove("active");
-      document.getElementById("sim-screen-cart").classList.add("active");
-      
-      // Trigger the nudge sheet automatically!
-      triggerCheckoutNudge();
-    }, 2800);
-    
-  } else {
-    // For other types, simulate loading feedback on the trigger action button
-    const triggerCard = document.querySelector(".copilot-trigger-card");
-    if (triggerCard) {
-      const actionBtn = triggerCard.querySelector(".copilot-trigger-action");
-      if (actionBtn) {
-        actionBtn.textContent = "Loading...";
-        actionBtn.style.background = "var(--color-zepto-orange)";
-        
-        setTimeout(() => {
-          triggerCheckoutNudge();
-          actionBtn.textContent = type === 'electronics' ? "Auto Detect" : (type === 'pet' ? "Open Profile" : "Price Match");
-          actionBtn.style.background = "var(--color-zepto-purple)";
-        }, 900);
-      }
-    }
+let lifecycleInterceptionTriggered = false;
+let lifestyleDeclared = null;
+
+function renderHorizon2Area() {
+  const area = document.getElementById("sim-horizon2-area");
+  if (!area) return;
+  
+  if (cartItems.length === 0) {
+    area.innerHTML = "";
+    return;
   }
+  
+  let lifecycleContent = "";
+  if (lifecycleInterceptionTriggered) {
+    if (!lifestyleDeclared) {
+      lifecycleContent = `
+        <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 12px; padding: 12px; margin-top: 12px; text-align: left;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 9px; font-weight: 700; color: #38bdf8; text-transform: uppercase;">🔄 Lifecycle Moment Interceptor</span>
+            <button onclick="dismissLifecycle()" style="background: none; border: none; color: #fff; cursor: pointer; font-size: 10px;">✕</button>
+          </div>
+          <p style="font-size: 11px; color: #fff; margin: 6px 0 8px 0;">Looks like something new is in your cart — anything you'd like Zepto to know?</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <button class="btn btn-sm" onclick="declareLifestyle('Pet')" style="font-size: 9px; padding: 4px 8px; border-radius: 4px; cursor: pointer; background: #38bdf8; color: #000; border: none; font-weight: bold;">New Pet 🐾</button>
+            <button class="btn btn-sm" onclick="declareLifestyle('Baby')" style="font-size: 9px; padding: 4px 8px; border-radius: 4px; cursor: pointer; background: #38bdf8; color: #000; border: none; font-weight: bold;">New Baby 👶</button>
+            <button class="btn btn-sm" onclick="declareLifestyle('Gym')" style="font-size: 9px; padding: 4px 8px; border-radius: 4px; cursor: pointer; background: #38bdf8; color: #000; border: none; font-weight: bold;">Started Gym 🏋️</button>
+            <button class="btn btn-sm" onclick="declareLifestyle('Move')" style="font-size: 9px; padding: 4px 8px; border-radius: 4px; cursor: pointer; background: #38bdf8; color: #000; border: none; font-weight: bold;">Just Moved 🏡</button>
+          </div>
+        </div>
+      `;
+    } else {
+      lifecycleContent = `
+        <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 12px; padding: 12px; margin-top: 12px; text-align: left;">
+          <span style="font-size: 9px; font-weight: 700; color: #38bdf8; text-transform: uppercase;">✓ Custom Discovery Trail Unlocked</span>
+          <h4 style="font-size: 12px; color: #fff; margin: 4px 0 2px 0;">Curated ${lifestyleDeclared} Discovery Guide</h4>
+          <p style="font-size: 10px; color: var(--text-muted); margin: 0 0 6px 0;">Recommendations adapted to your declared lifecycle moment.</p>
+          <div style="display: flex; gap: 8px; font-size: 9px; color: #38bdf8; background: rgba(56, 189, 248, 0.15); padding: 6px; border-radius: 6px; font-weight: bold;">
+            <span>🌟 Curated guide now unlocked in Discovery.</span>
+          </div>
+        </div>
+      `;
+    }
+  } else {
+    lifecycleContent = `
+      <div onclick="simulateLifecycleTrigger()" style="background: rgba(255,255,255,0.02); border: 1px dashed rgba(255,255,255,0.1); border-radius: 12px; padding: 10px; margin-top: 12px; cursor: pointer; text-align: center; font-size: 11px; color: var(--text-muted);">
+        💡 Tap to simulate adding Pampers Diapers (Lifecycle Moment Interceptor trigger)
+      </div>
+    `;
+  }
+  
+  area.innerHTML = `
+    ${lifecycleContent}
+    
+    <!-- Neighbourhood Trend Feed (Horizon 2 Preview) -->
+    <div style="background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 12px; padding: 12px; margin-top: 12px; text-align: left;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+        <span style="font-size: 9px; font-weight: 700; color: #10b981; text-transform: uppercase;">🔥 Neighbourhood Trends (Aggregated)</span>
+        <span style="font-size: 8px; background: rgba(16,185,129,0.15); color: #10b981; padding: 2px 6px; border-radius: 4px; font-weight: 700;">OPT-IN</span>
+      </div>
+      <p style="font-size: 11px; color: #fff; margin: 0 0 4px 0;">🔥 <strong>47 people in Koramangala</strong> started buying pet food this month!</p>
+      <p style="font-size: 9px; color: var(--text-muted); margin: 0; line-height: 1.3;">Aggregated PIN-code graph. Sensitive categories are auto-blocked. Minimum 50+ users privacy filter active.</p>
+    </div>
+  `;
 }
 
-function cancelCameraScan() {
-  document.getElementById("sim-screen-camera").classList.remove("active");
-  document.getElementById("sim-screen-cart").classList.add("active");
+function simulateLifecycleTrigger() {
+  lifecycleInterceptionTriggered = true;
+  cartItems.push({
+    id: "temp_diapers",
+    name: "Pampers Active Baby Diapers",
+    price: 199,
+    qtyText: "10 pcs (Trial size)",
+    emoji: "👶",
+    category: "Baby Care",
+    count: 1
+  });
+  updatePhoneCartUI();
 }
 
-// Trigger checkout nudge modal overlay
+function declareLifestyle(moment) {
+  lifestyleDeclared = moment;
+  renderHorizon2Area();
+}
+
+function dismissLifecycle() {
+  lifecycleInterceptionTriggered = false;
+  lifestyleDeclared = null;
+  const index = cartItems.findIndex(i => i.id === "temp_diapers");
+  if (index > -1) {
+    cartItems.splice(index, 1);
+  }
+  updatePhoneCartUI();
+}
+
 function triggerCheckoutNudge() {
   // If the user already interacted with the checkout nudge, proceed directly to success screen
   if (nudgeTriggered) {
@@ -1246,6 +1273,12 @@ function triggerCheckoutNudge() {
   document.getElementById("nudge-badge-trust").textContent = conf.nudgeProduct.badgeTrust;
   document.getElementById("nudge-badge-return").textContent = conf.nudgeProduct.badgeReturn;
 
+  // Change the text and action of the view log button to match Freshness Guarantee
+  const trustBadgeEl = document.querySelector(".badge-item-re[onclick='openDarkStoreAudit()']");
+  if (trustBadgeEl) {
+    trustBadgeEl.innerHTML = `<span class="badge-re-icon">🛡️</span><span class="badge-re-text">Freshness & Quality Log ➔</span>`;
+  }
+
   // Open overlay modal
   const overlay = document.getElementById("ai-nudge-modal");
   overlay.classList.add("active");
@@ -1253,11 +1286,181 @@ function triggerCheckoutNudge() {
 
 let nudgeTriggered = false;
 
+function closeNudgeOverlay() {
+  const overlay = document.getElementById("ai-nudge-modal");
+  overlay.classList.remove("active");
+}
+
+function openDarkStoreAudit() {
+  const modal = document.getElementById("dark-store-audit-modal");
+  if (modal) {
+    modal.classList.add("active");
+    const body = modal.querySelector(".nudge-body");
+    if (body) {
+      body.innerHTML = `
+        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:12px; font-size:11px; color:#fff;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:8px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:6px;">
+            <span>🏢 <strong>Dark Store Hub:</strong></span>
+            <span style="color:var(--color-zepto-yellow);">Gurgaon Sec 56 (Vault #3)</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:8px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:6px;">
+            <span>🌡️ <strong>Daily Climate Audit:</strong></span>
+            <span style="color:#27c93f; font-weight:700;">18.2°C (Optimal & Standard)</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:8px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:6px;">
+            <span>📅 <strong>Expiry Standards Check:</strong></span>
+            <span style="color:#27c93f;">100% Passed (Min 12 Months Life)</span>
+          </div>
+          <div style="display:flex; justify-content:space-between;">
+            <span>🛡️ <strong>Safety Guarantee:</strong></span>
+            <span style="color:var(--color-zepto-yellow);">Freshness Sealed Packaging</span>
+          </div>
+        </div>
+        <div style="margin-top:12px; background:rgba(0,0,0,0.4); border:1px solid rgba(39,201,63,0.3); border-radius:10px; padding:10px;">
+          <div style="font-size:10px; color:#27c93f; font-weight:700; margin-bottom:4px;">🛡️ Zero-CapEx Freshness Audit Log</div>
+          <p style="font-size:9px; color:var(--text-main); margin:0; line-height:1.3;">
+            Instead of expensive rack cameras, Zepto implements a digital checklist completed by the warehouse manager every 4 hours, ensuring hygiene grades are maintained at Grade A+ with 100% compliance.
+          </p>
+        </div>
+        <button class="btn-decline-nudge" onclick="closeDarkStoreAudit()" style="margin-top:14px; background:var(--color-zepto-purple); color:#fff; cursor:pointer; width:100%; border:none; padding:10px; border-radius:8px; font-weight:700;">
+          ✓ Understood (Return to Item)
+        </button>
+      `;
+    }
+  }
+}
+
+function closeDarkStoreAudit() {
+  const modal = document.getElementById("dark-store-audit-modal");
+  if (modal) modal.classList.remove("active");
+}
+
+function acceptNudgeProduct() {
+  const conf = PERSONA_CONFIGS[currentPersona];
+  const prod = conf.nudgeProduct;
+  
+  // Add recommendation to cart items list as free sample
+  cartItems.push({
+    id: "nudge_item",
+    name: `[Sample] ${prod.name}`,
+    price: prod.price,
+    qtyText: prod.qty,
+    emoji: prod.emoji,
+    category: prod.category,
+    count: 1,
+    isSample: true
+  });
+
+  nudgeTriggered = true; // Mark nudge as accepted
+  closeNudgeOverlay();
+  updatePhoneCartUI();
+}
+
+function declineNudgeProduct() {
+  nudgeTriggered = true; // Mark nudge as dismissed
+  closeNudgeOverlay();
+  proceedToCheckoutSuccess();
+}
+
+let outcomeSampleRated = false;
+let outcomeFullSizeAdded = false;
+
+function rateOutcomeSample() {
+  if (outcomeSampleRated) return;
+  outcomeSampleRated = true;
+  alert("Thank you for rating! Feedback shared directly with the brand for closed-loop attribution.");
+  const btn = document.querySelector("#success-outcome-loop-card button[onclick='rateOutcomeSample()']");
+  if (btn) {
+    btn.textContent = "Rated ★★★★★";
+    btn.disabled = true;
+    btn.style.opacity = 0.6;
+  }
+}
+
+function addFullSizeToNextCart() {
+  if (outcomeFullSizeAdded) return;
+  outcomeFullSizeAdded = true;
+  
+  alert("Full-size item added to your next cart! +1 Sticker earned on your Category Streak Board! 2x grocery points activated for your next order! 🏆");
+  
+  const card = document.getElementById("success-outcome-loop-card");
+  if (card) {
+    card.style.background = "rgba(46, 196, 182, 0.15)";
+    card.style.borderColor = "var(--color-success)";
+    card.innerHTML = `
+      <div style="font-size: 8px; font-weight: 700; color: var(--color-success); text-transform: uppercase; margin-bottom: 2px;">🏆 Category Flywheel Lock-In</div>
+      <h4 style="font-size: 12px; color: #fff; margin: 0 0 4px 0;">Streak Sticker Unlocked!</h4>
+      <p style="font-size: 10px; color: var(--text-main); margin: 0;">2x grocery points will be applied automatically on your next grocery refill order. Flywheel loop closed!</p>
+    `;
+  }
+}
+
+function proceedToCheckoutSuccess() {
+  // Hide Cart layout, show success screen
+  document.getElementById("sim-screen-cart").classList.remove("active");
+  document.getElementById("sim-screen-success").classList.add("active");
+
+  // Render items in success screen
+  const successList = document.getElementById("success-items-list");
+  successList.innerHTML = "";
+  
+  cartItems.forEach(item => {
+    const row = document.createElement("div");
+    row.className = "summary-item-row";
+    row.innerHTML = `<span>${item.emoji} ${item.name} (x${item.count})</span> <span>Rs. ${item.price}</span>`;
+    successList.appendChild(row);
+  });
+
+  // Trigger Outcome Loop Card
+  const outcomeCard = document.getElementById("success-outcome-loop-card");
+  if (outcomeCard) {
+    outcomeCard.style.display = "block";
+    const claimed = cartItems.find(i => i.isSample);
+    const targetName = claimed ? claimed.name.replace("[Sample] ", "") : "Cetaphil Cleanser";
+    document.getElementById("outcome-card-title").innerHTML = `Enjoyed your <b>${targetName}</b> trial?`;
+    document.getElementById("outcome-card-proof").innerHTML = `📍 <b>847 people near you in Koramangala</b> reordered full-size within 2 weeks. Add to your next order to complete your Category Streak!`;
+    
+    outcomeSampleRated = false;
+    outcomeFullSizeAdded = false;
+  }
+}
+
+function resetPrototypeToCart() {
+  document.getElementById("sim-screen-success").classList.remove("active");
+  document.getElementById("sim-screen-cart").classList.add("active");
+  
+  // Reset new states
+  lifecycleInterceptionTriggered = false;
+  lifestyleDeclared = null;
+  outcomeSampleRated = false;
+  outcomeFullSizeAdded = false;
+  const card = document.getElementById("success-outcome-loop-card");
+  if (card) {
+    card.style.display = "none";
+    card.style.background = "rgba(130, 36, 227, 0.12)";
+    card.style.borderColor = "var(--color-zepto-purple)";
+    card.innerHTML = `
+      <div style="font-size: 8px; font-weight: 700; color: var(--color-zepto-yellow); text-transform: uppercase; margin-bottom: 2px;">📦 48 Hours Later... Post-Trial Follow-Up</div>
+      <h4 id="outcome-card-title" style="font-size: 12px; color: #fff; margin: 0 0 4px 0;">Did you try the sample?</h4>
+      <p id="outcome-card-proof" style="font-size: 10px; color: var(--text-muted); margin: 0 0 8px 0; line-height: 1.3;">847 people near you reordered within 2 weeks.</p>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn btn-sm" onclick="rateOutcomeSample()" style="flex: 1; font-size: 9px; padding: 6px; background: rgba(255,255,255,0.05); color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; cursor: pointer;">Rate It</button>
+        <button class="btn btn-accent btn-sm" onclick="addFullSizeToNextCart()" style="flex: 2; font-size: 9px; padding: 6px; font-weight: 700; border-radius: 6px; cursor: pointer;">Add Full-Size (+Streak) 🛒</button>
+      </div>
+    `;
+  }
+
+  // Reset the persona parameters back
+  setPersona(currentPersona);
+}
+
 function setPersona(personaKey) {
   currentPersona = personaKey;
   claimedSampleId = null;
   couponApplied = false;
   nudgeTriggered = false; // Reset checkout nudge state
+  lifecycleInterceptionTriggered = false;
+  lifestyleDeclared = null;
 
   // Update active pill button style
   document.querySelectorAll(".radio-pill-group button").forEach(btn => btn.classList.remove("active"));
@@ -1278,72 +1481,6 @@ function setPersona(personaKey) {
 
   // Reset overlays
   closeNudgeOverlay();
-}
-
-function closeNudgeOverlay() {
-  const overlay = document.getElementById("ai-nudge-modal");
-  overlay.classList.remove("active");
-}
-
-function openDarkStoreAudit() {
-  const modal = document.getElementById("dark-store-audit-modal");
-  if (modal) modal.classList.add("active");
-}
-
-function closeDarkStoreAudit() {
-  const modal = document.getElementById("dark-store-audit-modal");
-  if (modal) modal.classList.remove("active");
-}
-
-function acceptNudgeProduct() {
-  const conf = PERSONA_CONFIGS[currentPersona];
-  const prod = conf.nudgeProduct;
-  
-  // Add recommendation to cart items list with its actual category
-  cartItems.push({
-    id: "nudge_item",
-    name: prod.name,
-    price: prod.price,
-    qtyText: prod.qty,
-    emoji: prod.emoji,
-    category: prod.category,
-    count: 1
-  });
-
-  nudgeTriggered = true; // Mark nudge as accepted
-  closeNudgeOverlay();
-  updatePhoneCartUI();
-}
-
-function declineNudgeProduct() {
-  nudgeTriggered = true; // Mark nudge as dismissed
-  closeNudgeOverlay();
-  proceedToCheckoutSuccess();
-}
-
-function proceedToCheckoutSuccess() {
-  // Hide Cart layout, show success screen
-  document.getElementById("sim-screen-cart").classList.remove("active");
-  document.getElementById("sim-screen-success").classList.add("active");
-
-  // Render items in success screen
-  const successList = document.getElementById("success-items-list");
-  successList.innerHTML = "";
-  
-  cartItems.forEach(item => {
-    const row = document.createElement("div");
-    row.className = "summary-item-row";
-    row.innerHTML = `<span>${item.emoji} ${item.name} (x${item.count})</span> <span>Rs. ${item.price}</span>`;
-    successList.appendChild(row);
-  });
-}
-
-function resetPrototypeToCart() {
-  document.getElementById("sim-screen-success").classList.remove("active");
-  document.getElementById("sim-screen-cart").classList.add("active");
-  
-  // Reset the persona parameters back
-  setPersona(currentPersona);
 }
 
 // 6. Tab 4: Pitch Deck functions
@@ -1805,23 +1942,23 @@ const tourSteps = [
   },
   {
     tab: "engine",
-    content: "<strong>Step 2: Deep Feedback Extraction & PM Questions</strong><br><br>Look down at the <strong>8 Core PM Questions Matrix</strong>. Tapping these cards reveals how we answered fundamental product discovery queries using data-backed customer review patterns."
+    content: "<strong>Step 2: Deep Feedback Extraction & PM Questions</strong><br><br>Look down at the <strong>8 Core PM Questions Matrix</strong>. Tapping these cards reveals how we target category streaks and restock cadences using customer feedback trends."
   },
   {
     tab: "research",
-    content: "<strong>Step 3: Primary Research & Cohort Survey Validation</strong><br><br>Let's switch to the <strong>User Research Hub</strong>. Here we validate our AI insights against 5 user interview transcripts and our expanded <strong>N=22 live audience survey results scorecard</strong>!"
+    content: "<strong>Step 3: Primary Research & Cohort Survey Validation</strong><br><br>Let's switch to the <strong>User Research Hub</strong>. Here we validate our assumptions against user interviews and our live survey results validating category streaks over flat cashbacks!"
   },
   {
     tab: "prototype",
-    content: "<strong>Step 4: Zepto AI MVP Simulator</strong><br><br>Let's switch to the interactive **Zepto AI MVP Simulator** tab. Here is a fully interactive mockup of a Zepto customer shopping cart."
+    content: "<strong>Step 4: Zepto AI MVP Simulator</strong><br><br>Let's switch to the interactive **Zepto AI MVP Simulator** tab. Note the **Category Streak Board** starts with **Pantry** pre-stamped (endowed progress head start)!"
   },
   {
     tab: "prototype",
-    content: "<strong>Step 5: Dynamic B2B Sampling & Streak Quests</strong><br><br>Try: 1. Claiming a Free Sample (it prioritizes the relevant category automatically), 2. Tapping the AI suggestion scanner (e.g. <strong>SkinMatch AI</strong>), and 3. Watching the <strong>Category Streak Board</strong> stickers light up in gold to unlock 2x Grocery Points!"
+    content: "<strong>Step 5: Restock Cadence Interception Nudge</strong><br><br>Try tapping the **🕒 Cadence Interception Nudge** widget. This predicts when a customer's monthly bulk restock is due, and intercepts the purchase decision with a ₹0 trial sample that rides free in their bag."
   },
   {
     tab: "prototype",
-    content: "<strong>Step 6: Model B Live Dark-Store Audit & CCTV</strong><br><br>Clicking 'Proceed to Payment' triggers the checkout recommendation drawer. Click **View Storage Audit Log ➔** to see the <strong>Model B IoT storage telemetry and live CCTV camera snapshot</strong> ($15/mo production cost)!"
+    content: "<strong>Step 6: Post-Trial Outcome Loop Card</strong><br><br>Proceed to checkout. On the Success screen, simulate 48 hours later. Tapping **Add Full-Size (+Streak)** adds the item to your next cart, stamps the sticker board, and unlocks 2x grocery points next month!"
   }
 ];
 

@@ -67,99 +67,102 @@ def generate_all_screens():
   <text x="45" y="284" fill="#E2E8F0" font-family="Arial" font-size="10">Active Reward: 2x Points on Milk &amp; Bread (+120 points/mo)</text>
 </svg>'''
 
-    # 3. Use Case 3: SkinMatch AI Camera Scanner
+    # 3. Use Case 3: Restock Cadence Interception Nudge
     svg_3 = '''<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="850" rx="40" fill="#130D1E"/>
   <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
   <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
-  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">💄 SkinMatch AI · Camera Undertone Scanner</text>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🕒 Restock Cadence Interception</text>
   
-  <rect x="20" y="105" width="360" height="390" rx="16" fill="#1E293B" stroke="#7C3AED" stroke-width="2"/>
-  <rect x="40" y="125" width="320" height="240" rx="12" fill="#281545"/>
-  <ellipse cx="200" cy="225" rx="65" ry="85" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6"/>
-  <text x="135" y="230" fill="#E2E8F0" font-family="Arial" font-size="12">Position Face in Oval</text>
-  <text x="120" y="348" fill="#F59E0B" font-family="Arial" font-size="11" font-weight="bold">Analyzing Undertones...</text>
+  <rect x="20" y="105" width="360" height="390" rx="16" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="40" y="125" width="320" height="100" rx="12" fill="#281545" stroke="#F59E0B"/>
+  <text x="55" y="152" fill="#F59E0B" font-family="Arial" font-size="12" font-weight="bold">🕒 RESTOCK INTERCEPT ACTIVE</text>
+  <text x="55" y="172" fill="#FFFFFF" font-family="Arial" font-size="11" font-weight="bold">Cetaphil Cleanser due in 2 days.</text>
+  <text x="55" y="190" fill="#94A3B8" font-family="Arial" font-size="10">Intercepting Amazon order with ₹0 sample.</text>
+
+  <rect x="40" y="240" width="320" height="120" rx="10" fill="#0F172A" stroke="#7C3AED"/>
+  <text x="55" y="265" fill="#10B981" font-family="Arial" font-size="12" font-weight="bold">✓ Brand-Funded Free Trial Sample</text>
+  <text x="55" y="285" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Cetaphil Gentle Cleanser (15ml)</text>
+  <text x="55" y="305" fill="#94A3B8" font-family="Arial" font-size="10">Funded by beauty margin (35%) · ₹0</text>
   
-  <rect x="40" y="380" width="320" height="95" rx="10" fill="#0F172A" stroke="#10B981"/>
-  <text x="55" y="405" fill="#10B981" font-family="Arial" font-size="12" font-weight="bold">✓ 98.4% Shade Match Detected</text>
-  <text x="55" y="425" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Maybelline Fit Me #128 Warm Nude</text>
-  <text x="55" y="445" fill="#94A3B8" font-family="Arial" font-size="10">Includes 15-Min Rider Doorstep Shade Refund Guarantee!</text>
-  
-  <rect x="20" y="515" width="360" height="50" rx="12" fill="#7C3AED"/>
-  <text x="105" y="545" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">Add Shade #128 to Cart (₹549)</text>
+  <rect x="40" y="380" width="320" height="45" rx="8" fill="#7C3AED"/>
+  <text x="110" y="407" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Claim Free Sample (₹0)</text>
 </svg>'''
 
-    # 4. Use Case 4: DeviceLink Auto-Detect Compatibility
+    # 4. Use Case 4: Post-Trial Outcome Loop Card
     svg_4 = '''<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="850" rx="40" fill="#130D1E"/>
   <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
   <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
-  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🔌 DeviceLink · Phone Model Auto-Detect</text>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">📦 Post-Trial Outcome Loop</text>
   
-  <rect x="20" y="105" width="360" height="200" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
-  <rect x="35" y="125" width="330" height="45" rx="8" fill="#0F172A" stroke="#38BDF8"/>
-  <text x="50" y="152" fill="#38BDF8" font-family="Arial" font-size="13" font-weight="bold">📱 iPhone 15 Pro Detected (USB-C 20W)</text>
+  <rect x="20" y="105" width="360" height="230" rx="14" fill="#1E293B" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="35" y="125" width="330" height="45" rx="8" fill="#0F172A" stroke="#7C3AED"/>
+  <text x="50" y="152" fill="#7C3AED" font-family="Arial" font-size="13" font-weight="bold">📦 48 Hours Later... Post-Trial Follow-Up</text>
   
-  <text x="35" y="195" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Portronics Braided USB-C Cable (1m)</text>
-  <text x="35" y="215" fill="#10B981" font-family="Arial" font-size="11" font-weight="bold">✓ 100% Verified Compatible · 10-Min Speed</text>
-  <rect x="35" y="235" width="330" height="45" rx="8" fill="#7C3AED"/>
-  <text x="120" y="262" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Add Cable to Cart (₹299)</text>
+  <text x="35" y="195" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Enjoyed your Cetaphil Cleanser trial?</text>
+  <text x="35" y="215" fill="#10B981" font-family="Arial" font-size="11" font-weight="bold">📍 847 in Koramangala reordered within 2 weeks.</text>
+  <rect x="35" y="245" width="330" height="45" rx="8" fill="#10B981"/>
+  <text x="90" y="272" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Add Full-Size to Next Cart (+Streak)</text>
 </svg>'''
 
-    # 5. Use Case 5: PetCare Profile & Nutrition Matcher
+    # 5. Use Case 5: Horizon 2 Lifecycle Moment Interceptor
     svg_5 = '''<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="850" rx="40" fill="#130D1E"/>
   <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
   <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
-  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🐾 PetCare Profile · Age &amp; Breed Matcher</text>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🔄 Lifecycle Moment Interceptor</text>
   
-  <rect x="20" y="105" width="360" height="220" rx="14" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
-  <rect x="35" y="125" width="330" height="45" rx="8" fill="#0F172A" stroke="#F59E0B"/>
-  <text x="50" y="152" fill="#F59E0B" font-family="Arial" font-size="13" font-weight="bold">🐕 Bruno · Golden Retriever (2 Yrs)</text>
+  <rect x="20" y="105" width="360" height="240" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+  <rect x="35" y="125" width="330" height="45" rx="8" fill="#0F172A" stroke="#38BDF8"/>
+  <text x="50" y="152" fill="#38BDF8" font-family="Arial" font-size="13" font-weight="bold">👶 Pampers Baby Diapers added to cart</text>
   
-  <text x="35" y="195" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Pedigree Adult Chicken &amp; Rice (3kg)</text>
-  <text x="35" y="215" fill="#10B981" font-family="Arial" font-size="11" font-weight="bold">✓ High Protein Match + ₹0 Free Dentastix Sample</text>
-  <rect x="35" y="235" width="330" height="45" rx="8" fill="#10B981"/>
-  <text x="110" y="262" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">Add Food + ₹0 Treat Sample</text>
+  <text x="35" y="195" fill="#FFFFFF" font-family="Arial" font-size="12" font-weight="bold">Anything new you'd like Zepto to know?</text>
+  <rect x="35" y="220" width="150" height="35" rx="6" fill="#38BDF8"/><text x="80" y="242" fill="#000" font-family="Arial" font-size="12" font-weight="bold">New Baby 👶</text>
+  <rect x="195" y="220" width="150" height="35" rx="6" fill="#334155"/><text x="240" y="242" fill="#FFF" font-family="Arial" font-size="12">New Pet 🐾</text>
+  <rect x="35" y="265" width="330" height="45" rx="8" fill="#0F172A" stroke="#38BDF8"/>
+  <text x="50" y="292" fill="#38BDF8" font-family="Arial" font-size="11">Unlocks curated Discovery Guides and Trails</text>
 </svg>'''
 
-    # 6. Use Case 6: Model B Dark Store Quality Vault Audit
+    # 6. Use Case 6: Freshness Guaranteed Audit Log
     svg_6 = '''<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="850" rx="40" fill="#130D1E"/>
   <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
   <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
-  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">📦 Model B Dark Store Quality Audit</text>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🛡️ Freshness Guaranteed Audit Log</text>
   
-  <rect x="20" y="105" width="360" height="340" rx="16" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
-  <text x="35" y="135" fill="#F59E0B" font-family="Arial" font-size="13" font-weight="bold">🌡️ IoT Storage Telemetry &amp; CCTV Snapshot</text>
+  <rect x="20" y="105" width="360" height="340" rx="16" fill="#1E293B" stroke="#10B981" stroke-width="1.5"/>
+  <text x="35" y="135" fill="#10B981" font-family="Arial" font-size="13" font-weight="bold">📋 Zero-CapEx Warehouse Climate Audit</text>
   <rect x="35" y="150" width="330" height="40" rx="8" fill="#10B981"/>
   <text x="50" y="175" fill="#FFFFFF" font-family="Arial" font-size="12" font-weight="bold">✓ Storage Temp: 18.2°C (Optimal Cool Climate)</text>
   
-  <rect x="35" y="200" width="330" height="180" rx="8" fill="#000000" stroke="#334155"/>
-  <text x="45" y="220" fill="#00FF00" font-family="Courier" font-size="10">LIVE CCTV STREAM · DARK STORE #104 (GURGAON SECTOR 56)</text>
-  <text x="45" y="235" fill="#00FF00" font-family="Courier" font-size="10">RACK B4: BEAUTY &amp; SKINCARE VAULT · 2026-08-01 14:30:00</text>
-  <rect x="120" y="260" width="160" height="90" rx="4" fill="#0F172A" stroke="#F59E0B"/>
-  <text x="135" y="310" fill="#E2E8F0" font-family="Arial" font-size="11">[ Overhead CCTV Rack Snapshot ]</text>
+  <rect x="35" y="200" width="330" height="150" rx="8" fill="#000000" stroke="#334155"/>
+  <text x="45" y="225" fill="#00FF00" font-family="Courier" font-size="10">DAILY CLIMATE AUDIT LOG (KORAMANGALA)</text>
+  <text x="45" y="245" fill="#00FF00" font-family="Courier" font-size="9">08:00 AM: 18.1°C (Passed by Manager)</text>
+  <text x="45" y="245" fill="#00FF00" font-family="Courier" font-size="9">08:00 AM: 18.1°C (Passed by Manager)</text>
+  <text x="45" y="265" fill="#00FF00" font-family="Courier" font-size="9">12:00 PM: 18.4°C (Passed by Manager)</text>
+  <text x="45" y="285" fill="#00FF00" font-family="Courier" font-size="9">04:00 PM: 18.2°C (Passed by Manager)</text>
   
-  <text x="35" y="410" fill="#94A3B8" font-family="Arial" font-size="10">AWS S3 Lifecycle Storage Cost: ~$15/month total (7-day TTL auto-expire).</text>
+  <text x="35" y="380" fill="#94A3B8" font-family="Arial" font-size="10">Completed by manager check-in checklist every 4 hours.</text>
+  <text x="35" y="398" fill="#94A3B8" font-family="Arial" font-size="10">Hygiene Grade: A+ | Batch Expiry Checked.</text>
 </svg>'''
 
-    # 7. Use Case 7: QC-Native Doorstep Try & Swap
+    # 7. Use Case 7: Neighbourhood Trend Feed (Horizon 2 Preview)
     svg_7 = '''<svg width="400" height="850" viewBox="0 0 400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="850" rx="40" fill="#130D1E"/>
   <rect x="140" y="10" width="120" height="25" rx="12" fill="#000000"/>
   <rect x="20" y="50" width="360" height="40" rx="8" fill="#1E293B"/>
-  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">⚡ QC Doorstep Try &amp; Inspection Window</text>
+  <text x="35" y="75" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold">🔥 Neighbourhood Trend Feed</text>
   
   <rect x="20" y="105" width="360" height="220" rx="14" fill="#1E293B" stroke="#10B981" stroke-width="1.5"/>
-  <text x="35" y="135" fill="#10B981" font-family="Arial" font-size="13" font-weight="bold">⏱️ Rider Doorstep Inspection Active (60s Window)</text>
-  <text x="35" y="158" fill="#FFFFFF" font-family="Arial" font-size="12">Inspect box seal &amp; shade with delivery rider present.</text>
+  <text x="35" y="135" fill="#10B981" font-family="Arial" font-size="13" font-weight="bold">🔥 Trending in Sector 56, Gurgaon</text>
+  <text x="35" y="158" fill="#FFFFFF" font-family="Arial" font-size="12">47 people started buying pet food this month!</text>
   
   <rect x="35" y="180" width="330" height="45" rx="8" fill="#10B981"/>
-  <text x="100" y="207" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">✓ Item Perfect · Keep Order</text>
+  <text x="80" y="207" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">🔥 68 near you bought Cetaphil Cleanser</text>
   
-  <rect x="35" y="235" width="330" height="45" rx="8" fill="#EF4444"/>
-  <text x="90" y="262" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">🔁 Wrong Shade · 1-Click Instant Swap</text>
+  <text x="35" y="250" fill="#94A3B8" font-family="Arial" font-size="10">Aggregated PIN-code graph. Opt-in only.</text>
+  <text x="35" y="268" fill="#94A3B8" font-family="Arial" font-size="10">Sensitive categories auto-blocked. Min 50+ users filter.</text>
 </svg>'''
 
     # 8. Use Case 8: Post-Trial DISCOVERY100 Conversion Voucher
@@ -183,11 +186,11 @@ def generate_all_screens():
     screens = [
         ("01_b2b_free_sampler_cart.svg", svg_1),
         ("02_category_streak_quest_board.svg", svg_2),
-        ("03_skinmatch_ai_camera_scanner.svg", svg_3),
-        ("04_devicelink_accessory_compatibility.svg", svg_4),
-        ("05_petcare_profile_nutrition_matcher.svg", svg_5),
-        ("06_darkstore_quality_cctv_audit.svg", svg_6),
-        ("07_doorstep_instant_try_and_swap.svg", svg_7),
+        ("03_restock_cadence_interception.svg", svg_3),
+        ("04_post_trial_outcome_loop.svg", svg_4),
+        ("05_lifecycle_moment_interceptor.svg", svg_5),
+        ("06_freshness_guaranteed_audit.svg", svg_6),
+        ("07_neighbourhood_trend_feed.svg", svg_7),
         ("08_discovery100_voucher_conversion.svg", svg_8)
     ]
 

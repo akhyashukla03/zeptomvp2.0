@@ -12,11 +12,11 @@ def render_crisp_svgs():
     files = [
         "01_b2b_free_sampler_cart.svg",
         "02_category_streak_quest_board.svg",
-        "03_skinmatch_ai_camera_scanner.svg",
-        "04_devicelink_accessory_compatibility.svg",
-        "05_petcare_profile_nutrition_matcher.svg",
-        "06_darkstore_quality_cctv_audit.svg",
-        "07_doorstep_instant_try_and_swap.svg",
+        "03_restock_cadence_interception.svg",
+        "04_post_trial_outcome_loop.svg",
+        "05_lifecycle_moment_interceptor.svg",
+        "06_freshness_guaranteed_audit.svg",
+        "07_neighbourhood_trend_feed.svg",
         "08_discovery100_voucher_conversion.svg"
     ]
     
